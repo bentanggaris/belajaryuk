@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="layout.css">
+		<link rel="icon" href="img/logoby2.svg"/>
+
+		<!--Mathjax-->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({text2jax: {inlineMath: [['$', '$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		<title>Soal Evaluasi Perbandingan</title>
+	</head>
+		
+	<!-- BATAS -->
+
+	<body>
+		<!-- NAVBAR-->
+		<div class="container-fluid">
+			<div class="row">
+			<nav class="navbar fixed-top" style="background-color: #97B6EC;">
+				<a href="evaluasi.html"><img src="img/back.svg" class="img-fluid" style="width:6vw;"></a>
+				<h4>EVALUASI</h4>
+				<a href="index.html"><img src="img/home.svg" class="img-fluid" style="width:6vw;"></a>
+			</nav>
+			</div>
+
+			<!-- Isi Soal Evaluasi -->
+			<div class="row evaluasi">
+
+				<div class="labelevaluasi"> <b>Soal Evaluasi Perbandingan</b></div>
+
+				<div class="isievaluasi">
+
+				<!--keterangannomorsoal-->
+				<p><b>Soal 1 dari 20</b></p>
+				<hr color=#262626;>
+				
+				<!--soal-->
+
+				<div id="soaltampil"></div>
+
+				<div>
+					<p>a <input type="radio" id="a" name="pilihan">
+					<span id="pil1"></span></p>
+				</div>
+				<div>
+					<p>b <input type="radio" id="b" name="pilihan">
+					<span id="pil2"></span></p>
+				</div>									
+				<div>
+					<p>c <input type="radio" id="c" name="pilihan">
+					<span id="pil3"></span></p>
+				</div>
+				<div>
+					<p>d <input type="radio" id="d" name="pilihan">
+					<span id="pil4"></span></p>
+				</div>
+
+				<!--tombol lanjutan-->
+				<button class="btn soalselanjutnya" onclick="checkAnswer()"> Cek Jawaban&nbsp;&nbsp;&nbsp;&#8594;</button>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- JQuery -->
+    <script src="assets/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap -->
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="soal.js"></script>
+    <script src="soal_evaluasi.js"></script>    
+
+	</body>
+</html>

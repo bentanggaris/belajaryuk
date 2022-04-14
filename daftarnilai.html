@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="layoutdaftarnilai.css">
+		<link rel="icon" href="img/logoby2.svg"/>
+
+		<!--Mathjax-->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({text2jax: {inlineMath: [['$', '$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		<title>Daftar Nilai Siswa | Baca Yuk</title>
+	</head>
+
+	<body>
+		<!-- Konten -->
+		<div class="container-fluid">
+		<div class="row">
+			<!-- Sidebar -->
+			<div class="col-md-2 sidebar"><h4 class="judulside"><b>Dashboard Guru</b></h4>
+
+				<div class="menuside">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link active" href="hasillatihan.html"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Latihan Sub Bab 1</a></li>
+
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Latihan Sub Bab 2</a></li>
+
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Latihan Sub Bab 3</a></li>
+					
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Latihan Sub Bab 4</a></li>
+					
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Latihan Sub Bab 5</a></li>
+
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#"><!-- <img src="img/materi2.svg" class="img-fluid" style="width:2vw;"> --> Evaluasi</a></li>				
+				</ul>
+				</div>		
+
+				<div class="logout">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+					<a style="padding-left: 10%;" class="nav-link" href="#">Logout</a></li>
+				</ul></div>
+			</div>	
+
+			<div class="col-md-10 daftarnilai">
+				<div class="card tabelnilai">
+				<div class="header"><h5>Dafar Nilai Siswa</h5></div>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>				
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>				
+				<p><table>
+					<tr>
+						<th>No.</th>
+						<th>Nama Siswa</th>
+						<th>Kelas</th>
+						<th>Nilai</th>
+						<th>Waktu Selesai</th></tr>
+				</table></p>								
+				<tbody id="tampil"></tbody>
+				</div>
+			</div>
+
+		</div>
+		</div>
+
+
+	<!-- JQuery -->
+    <script src="assets/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+
+    <!-- Sisipan Javascript -->
+    <script>
+        let mulai = document.querySelector('.lanjut');
+        let nama = document.getElementById('nama');
+        let kelas = document.getElementById('kelas');
+        mulai.addEventListener('click', function(){
+            if(nama.value =="" || kelas.value ==""){
+                alert("Lengkapi kembali datamu!")
+            }else{
+                localStorage.setItem('nama', nama.value)
+                localStorage.setItem('kelas', kelas.value)
+                window.location = "soal_evaluasi.html"
+            }
+        })
+    </script>
+	</body>
+</html>

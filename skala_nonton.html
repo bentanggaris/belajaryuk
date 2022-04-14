@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="layoutmateri.css">
+		<link rel="icon" href="img/logoby2.svg"/>
+
+		<!--Mathjax-->
+
+		<script>
+		MathJax = {
+		  tex: {
+		    inlineMath: [['$', '$'], ['\\(', '\\)']]
+		  }
+		};
+		</script>
+		<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>		
+
+		<!--<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({text2jax: {inlineMath: [['$', '$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script> -->
+
+		<title>Skala | Nonton Yuk</title>
+	</head>
+
+	<body>
+		<!-- KONTEN -->
+		<div class="container-fluid konten">
+			<div class="row">
+				<!-- SIDEBAR -->
+				<div class="col-md-3">
+				<div class="sidebar">
+
+					<h4 class="judulside"><b>Sub Materi</b></h4>
+
+					<div class="menuside">
+					<ul class="navbar-nav">
+					    <li class="nav-item">
+					      <a style="padding-left: 10%;" class="nav-link" href="perbandingan_video.html">Pengertian Perbandingan</a>
+					    </li>
+					    <li class="nav-item">
+					      <a style="padding-left: 10%;" class="nav-link" href="dua_besaran_video.html">Perbandingan Dua Besaran</a>
+					    </li>
+					    <li class="nav-item">
+					      <a style="padding-left: 10%;" class="nav-link" href="senilai_video.html">Perbandingan Senilai</a>
+					    </li>
+					    <li class="nav-item">
+					      <a style="padding-left: 10%;" class="nav-link active" href="skala_video.html">Skala</a>
+					    </li>
+					    <li class="nav-item">
+					      <a style="padding-left: 10%;" class="nav-link" href="berbalik_nilai_video.html">Perbandingan Berbalik Nilai</a>
+					    </li>
+					</ul>
+					</div>
+					<div class="iconsidebar">
+					<ul><li><a href="index.html"><img src="img/home.svg" class="img-fluid" style="width:2vw;">index</a></li>
+
+					<li><a href="menu.html"><img src="img/back.svg" class="img-fluid" style="width:2vw;">Kembali</a></li>
+					</ul>
+					</div>
+					
+				</div>
+				</div>
+
+				<div class="col-md-9">
+					<div class="card materi">
+
+					<div class="card jdlsubmateri">
+					<h5>Skala</h5>
+					</div>
+
+					<div class="card jdlapersepsi"><h5>Nonton, Yuk!</h5></div>
+					
+					<div class="card ktrapersepsi"><p>Agar kamu bisa lebih memahami materi pada halaman sebelumnya, yuk kita tonton dulu video di bawah ini!</p></div>
+
+					<video class="card videoapersepsi" controls><source src="#" type="video/mp4"></video>
+
+					<!--CONTOH 1-->
+
+					<p><div class="card contoh">
+					<b>Contoh 1 : Skala pada Peta</b></div>
+
+					<div class="card isicontoh">
+					<b>&#8594; Soal<br></b>
+					Jarak antara kota A dan kota B pada peta yaitu 50 cm. Jika jarak sebenarnya adalah 250 km, hitunglah skala pada petanya!<br><br>
+
+					<b>&#8594; Penyelesaian<br></b>
+					<p>&#8226; &nbsp;Diketahui :<br>
+					Karena yang ditanyakan adalah skala pada peta, maka satuan yang digunakan adalah cm. Satuan yang berbeda harus disamakan terlebih dahulu. Satuan kilometernya (km) harus diubah ke dalam satuan cm dengan cari mengalikan bilangannya dengan 100.000.<br> Berikut adalah langkah penyelesaiannya :<br><br>
+
+					Jarak pada peta = &nbsp;&nbsp;<input type="text" name="dikt" class="diketahui" id="dikt1" onchange="cek1()"> cm </p></p>
+
+					<p>Jarak sebenarnya = &nbsp;&nbsp;<input type="text" name="dikt" class="diketahui" id="dikt2" onchange="cek2()"> km =&nbsp;&nbsp;<input type="text" name="dikt" class="diketahui" id="dikt3" onchange="cek3()">&nbsp;&nbsp; x &nbsp;&nbsp;<input type="text" name="dikt" class="diketahui" id="dikt4" onchange="cek4()"> = &nbsp;&nbsp;<input type="text" name="dikt" class="diketahui" id="dikt5" onchange="cek5()"> cm</p>
+
+					&#8226; &nbsp;Ditanyakan :<br>
+					Jika jarak sebenarnya adalah 250 km, hitunglah skala pada petanya!<br><br>
+
+					&#8226; &nbsp;Jawaban :<br>
+
+					$$Skala = \frac{50}{25.000.000}$$
+
+					$$Skala = \frac{1}{500.000}\;atau\;1:500.000$$
+
+					Kedua nilai dibagi dengan 50 dan hasilnya adalah 1∶500.000. Jadi, skala yang digunakan pada peta yaitu 1∶500.000.<br><br></div>
+					</p>
+
+					<!--KESIMPULAN-->
+
+					<p><div class="card kesimpulan">
+					<b>Kesimpulan</b></div>
+
+					<div class="card isikesimpulan">
+					&#8226; &nbsp;Skala merupakan suatu perbandingan ukuran pada gambar yang mewakili keadaan/bentuk yang sebenarnya.<br>
+					&#8226; &nbsp;Persamaan skala :
+
+					<div class="rumus"> $$Skala = \frac {ukuran\;pada\;model/gambar}{ukuran\;sebenarnya}$$</div><br>
+
+					</div>
+					<span><p><br>Untuk mengasah ingatan serta pemahamanmu dan agar tidak cepat <i>move on</i> dengan materi, ayo kerjakan soal-soal latihan pada bagian “Coba, Yuk!”. Untuk melanjutkan pada bagian "Coba, Yuk!", silakan klik <b>halaman 4</b> atau tombol <b>Selanjutnya &raquo;</b></p></span>		
+				</div>
+
+				<ul class="pagination justify-content-center" style="margin:20px 0">
+					  <li class="page-item"><a class="page-link" href="skala_baca.html">&laquo; Sebelumnya</a></li>
+					  <li class="page-item"><a class="page-link" href="skala_video.html">1</a></li>
+					  <li class="page-item"><a class="page-link" href="skala_baca.html">2</a></li>
+					  <li class="page-item aktif"><a class="page-link" href="skala_nonton.html">3</a></li>
+					  <li class="page-item"><a class="page-link" href="skala_coba.html">4</a></li>
+					  <li class="page-item"><a class="page-link" href="skala_coba.html">Selanjutnya &raquo;</a></li>
+					</ul>						
+				</div>
+			</div>
+		</div>
+
+
+	<!-- JQuery -->
+    <script src="assets/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap -->
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="skala_contoh.js"></script>
+
+	</body>
+</html>

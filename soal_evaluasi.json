@@ -1,0 +1,81 @@
+ "evaluasi" : [
+	{	"soal" : "1. Berikut disajikan sebuah tabel berdasarkan hasil survei pekerjaan di daerah Martapura yang diminati pada tahun 2019-2020. Berdasarkan data di atas, pernyataan di bawah ini yang jawaban adalah ….",
+	"a" : "Rasio banyak orang yang memilih pekerjaan guru terhadap pekerjaan freelancer yaitu 90 : 35",
+	"b" : "Rasio banyak orang yang memilih pekerjaan freelancer terhadap pekerjaan guru yaitu 90 : 35",
+	"c" : "Rasio banyak orang yang memilih pekerjaan pengusaha terhadap pekerjaan guru yaitu 245 : 103",
+	"d" : "Rasio banyak orang yang memilih pekerjaan guru terhadap pekerjaan pengusaha yaitu 245 : 103",
+	"jawaban" : "Rasio banyak orang yang memilih pekerjaan guru terhadap pekerjaan pengusaha yaitu 245 : 103"				
+},
+
+{	"soal" : "2. Banyaknya siswa di kelas VII A yaitu 25 orang, sedangkan di kelas VII B yaitu 29 orang. Selisih antara banyaknya siswa di kelas VII B dan di kelas VII A adalah ….",
+	"a" : "4 orang",
+	"b" : "3 orang",
+	"c" : "2 orang",
+	"d" : "1 orang",
+	"jawaban" : "4 orang"			
+},
+
+{	"soal" : "3. Berikut ini yang merupakan perbandingan dua besaran dengan satuan yang sama adalah ….",
+	"a" : "Perbandingan antara harga dan banyaknya minyak goreng adalah 2 : 1.",
+	"b" : "Perbandingan antara panjangnya tali berwarna merah dan tali berwarna biru adalah 5 : 3 meter.",
+	"c" : "Perbandingan antara suhu dan waktu di sebuah ruangan adalah 4 : 5.",
+	"d" : "Perbandingan antara banyak dan harga botol minuman adalah 3 : 1.",
+	"jawaban" : "Perbandingan antara panjangnya tali berwarna merah dan tali berwarna biru adalah 5 : 3 meter."				
+},
+
+{	"soal" : "4. Berikut ini yang merupakan perbandingan dua besaran dengan satuan yang berbeda adalah ….",
+	"a" : "Jeyan dan Andra bersepeda melewati sebuah jalan. Jeyan menempuh jarak 0,6 km, sedangkan Andra menempuh jarak 135 meter. Perbandingan antara jarak tempuh Jeyan dan Andra adalah 40 : 9 meter.",
+	"b" : "Jeyan dan Andra bersepeda melewati sebuah jalan. Jeyan menempuh jarak 600 meter, sedangkan Andra menempuh jarak 135 meter. Perbandingan antara jarak tempuh Jeyan dan Andra adalah 40 : 9 meter.",
+	"c" : "Jeyan membeli brownies 3 kotak dengan harga Rp150.000,00. Perbandingan antara banyak dan harga brownies adalah 1 : 50.",
+	"d" : "Andra berkendara sejauh 5 km dengan waktu tempuh 2,5 jam. Perbandingan antara jarak dan waktu tempuh Andra dalam berkendara adalah 2 : 1.",
+	"jawaban" : "Jeyan dan Andra bersepeda melewati sebuah jalan. Jeyan menempuh jarak 0,6 km, sedangkan Andra menempuh jarak 135 meter. Perbandingan antara jarak tempuh Jeyan dan Andra adalah 40 : 9 meter."			
+},
+
+{	"soal" : "5. Berikut ini yang merupakan perbandingan dua besaran berbeda adalah ….",
+	"a" : "Perbandingan antara banyaknya mobil dan sepeda adalah 2 : 3.",
+	"b" : "Perbandingan antara jarak rumah Aline dan Dhila adalah 2 : 1 meter.",
+	"c" : "Perbandingan antara jarak dan waktu tempuh dalam berkendara adalah 300 : 1.",
+	"d" : "Perbandingan antara harga buah jeruk dan harga buah durian adalah 1 : 2.",
+	"jawaban" : "Perbandingan antara jarak dan waktu tempuh dalam berkendara adalah 300 : 1."				
+},
+
+{	"soal" : "6. Seorang penulis menerima hadiah sebanyak $30 atas kontes menulis yang ia ikuti. Ia ingin menukarkan uang tersebut ke bank menjadi kurs dalam nilai rupiah. Untuk satu dolarnya bernilai 15.000 rupiah dan ia berencana akan menggunakan setengah uang tersebut untuk ditabung. Perbandingan antara jumlah upah yang diterima dengan uang yang akan ditabung adalah ….",
+	"a" : "1 : 2",
+	"b" : "1 : 1",
+	"c" : "2 : 1",
+	"d" : "2 : 2",
+	"jawaban" : "2 : 1"					
+},
+
+{	"soal" : "7. Diketahui dua pasang perbandingan, yaitu  x/27=  3/9. Nilai (x) dari pasangan perbandingan senilai tersebut adalah ….",
+	"a" : "9",
+	"b" : "10",
+	"c" : "11",
+	"d" : "12",
+	"jawaban" : "9"				
+},
+
+{	"soal" : "8. Jarak antara provinsi Kalimantan Selatan dan provinsi Kalimantan Timur pada peta yaitu 25 cm. Jika jarak sejawabannya adalah 750 km, maka skala pada petanya adalah …",
+	"a" : "1 : 30.000.000",
+	"b" : "1 : 3.000.000",
+	"c" : "1 : 300.000",
+	"d" : "1 : 30.000",
+	"jawaban" : "3.000.000"					
+},
+
+{	"soal" : "9. Diketahui dua pasang perbandingan, yaitu  45/15=  5/y. Nilai (y) dari pasangan perbandingan berbalik nilai tersebut adalah ….",
+	"a" : "25",
+	"b" : "15",
+	"c" : "15",
+	"d" : "35",
+	"jawaban" : "15"					
+},
+
+{	"soal" : "10. Berikut ini yang merupakan perbandingan senilai dalam bentuk tabel adalah ….",
+	"a" : "g1",
+	"b" : "g2",
+	"c" : "g3",
+	"d" : "g4",
+	"jawaban" : "g2"					
+},
+]
