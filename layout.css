@@ -16,7 +16,6 @@ html, body{
 .isiberanda{
   margin: 0;
   padding: 10%;
-  padding-bottom: 0;
 }
 
 .isiberanda h1{
@@ -37,8 +36,7 @@ html, body{
 }
 
 .gbrberanda{
-/*  padding: 3%;*/
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -78,7 +76,7 @@ html, body{
 }
 
 h4{
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   font-size: 1.5rem;
   font-weight: bold;
@@ -137,14 +135,12 @@ h4{
 
 
 /*==================== ***EVALUASI*** ====================*/
-.evaluasi{
-  margin-top: 10%;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 3%;
+.boxpetunjuk, .boxdatadiri{
+  margin: 5% 0% 0% 0%;
+  padding: 7% 3% 3% 3%;
 }
 
-.labelpetunjuk{
+.labelpetunjuk, .labeldatadiri{
   color: #282828;
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FF9F98;
@@ -164,19 +160,7 @@ h4{
   width: 100%;
   text-align: left;
   padding: 3%;
-  margin-top: -8px;
-  margin-bottom: 3%;
-}
-
-.labeldatadiri{
-  color: #282828;
-  font-family: Poppins, Verdana, sans-serif;
-  background-color: #FF9F98;
-  border: 3px #282828 solid;
-  border-radius: 10px;
-  width: 100%;
-  text-align: center;
-  padding: 1%;
+  margin: -8px 0% 0% 0%;
 }
 
 .isidatadiri{
@@ -186,9 +170,9 @@ h4{
   border: 3px solid #282828;
   border-radius: 0;
   width: 100%;
-  text-align: justify;
+  text-align: left;
   padding: 3%;
-  margin-top: -8px;
+  margin: -8px 0% 0% 0%;
 }
 
 .mulaiberlatih{ 
@@ -196,7 +180,7 @@ h4{
   border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
-  margin: 1%;
+  margin: 3% 0% 3% 0%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
@@ -207,6 +191,15 @@ h4{
 .mulaiberlatih:hover{
   color: #282828;
   background-color: #FBF2ED;  
+}
+
+.evaluasi{
+  margin: 7% 3% 3% 3%;
+}
+
+.boxevaluasi{
+  padding-top: 5%;
+  overflow: auto;
 }
 
 .labelevaluasi{
@@ -222,14 +215,14 @@ h4{
 
 .isievaluasi{
   color: #282828;
-  font-family: Poppins;
+  font-family: Source Sans Pro;
   background-color: #FBF2ED;
   border: 3px solid #282828;
   border-radius: 0;
   width: 100%;
   text-align: justify;
   padding: 3%;
-  margin-top: -8px;
+  margin-top: -8px; 
 }
 
 .soalselanjutnya{
@@ -237,11 +230,12 @@ h4{
   border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
+  margin: 3% 0% 3% 0%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 160px;
-  margin: 3% 0% 0% 0%;
+  width: 200px;
+  font-family: Poppins, Verdana, sans-serif;
 }
 
 .soalselanjutnya:hover{
@@ -300,7 +294,7 @@ h4{
 
 /*==================== ***SIDEBAR*** ====================*/
 .boxsidebar{
-  background-color: #FBF2ED;
+  background-color: #FCF4EC;
   width: 100%;
   height: 100%;
   margin: 7% 0% 0% 0%;
@@ -334,10 +328,9 @@ h4{
   cursor: pointer;
 }
 
-/*==================== ***KIKD & INFORMAS*** ====================*/
-
+/*==================== ***KI, KD & INFORMASI*** ====================*/
 .boxinfo, .boxkikd{
-  background-color: #FBF2ED;
+  background-color: #FCF4EC;
   width: 100%;
   margin: 7% 0% 0% 0%;
   font-family: Poppins, Verdana, sans-serif; 
@@ -356,3 +349,13 @@ h4{
   line-height: 27px;
   letter-spacing: 0.5px;
 }
+
+/*.peta_konsep{
+  transition: transform .2s;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.peta_konsep:hover{
+  transform: scale(1.5);
+}*/
