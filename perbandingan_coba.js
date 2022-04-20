@@ -17,13 +17,14 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban1").html());
 		
 		if(a===b){
-			$("#output1").html("&#10004");
-			$("#output1").css("color","#5688E0")
-
+			var myImage = new Image(30, 30);
+			myImage.src = 'img/silang.svg';
+			x.appendChild(myImage);			
 		}
 		else{
-			$("#output1").html("&#128473");
-			$("#output1").css("color","#FF5347");
+			var myImage = new Image(30, 30);
+			myImage.src = 'img/silang.svg';
+			x.appendChild(myImage);			
 		}
 	}
 	

@@ -5,8 +5,7 @@ html, body{
   padding: 0;
 }
 
-/*SIDEBAR*/
-
+/*==================== ***SIDEBAR*** ====================*/
 .sidebar{
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FCF4EC;
@@ -19,7 +18,7 @@ html, body{
   padding-left: 10%;
   letter-spacing: 1px;
   padding-top: 20%;
-  margin: 3% 0% 9% 0%;
+  margin: 0% 0% 6% 0%;
   color: #262626;
 }
 
@@ -57,7 +56,7 @@ html, body{
 }
 
 
-/*ISI MATERI*/
+/*==================== ***ISI MATERI*** ====================*/
 .isimateri{
   background-color: #FFE2E0;
   border-radius: 10px;
@@ -90,7 +89,7 @@ html, body{
   letter-spacing: 0.5px;
 }
 
-.jdlapersepsi{
+.jdlpendahuluan, .jdlsubsub{
   color: #262626;
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FF9F98;
@@ -102,15 +101,16 @@ html, body{
   margin-top: 3%;
 }
 
-.ktrapersepsi{
+.isipendahuluan, .isisubsub{
   color: #262626;
   font-family: Poppins;
   background-color: #FBF2ED;
   border: 3px solid #262626;
   text-align: justify;
   padding: 3%;
-  margin-top: -15px;
+  margin-top: -14px;
   margin-bottom: 3%;
+  letter-spacing: 0.5px;  
 }
 
 .videoapersepsi{
@@ -139,81 +139,17 @@ html, body{
   font-family: Poppins, Verdana, sans-serif;
 }
 
-/*BATAS*/
-
-.bacayuk{
-  color: #262626;
-  font-family: Poppins;
-  width: 90%;
-  text-align: justify;
-  padding: 2%;
-  margin-top: -3px;
-}
-
 .rumus{
   background-color: #FF9F98;
-  border: 3px solid #262626;
+  border: 1px solid #262626;
   border-radius: 10px;
-  margin-left: 35%;
-  width: 40%;
-  text-align: center;
-}
-
-.contoh{
-  color: #262626;
-  font-family: Poppins, Verdana, sans-serif;
-  background-color: #FF9F98;
-  border: 3px #262626 solid;
-  border-radius: 10px;
-  width: 100%;
-  text-align: center;
-  padding: 1%;
-  margin-top: 3%;
-}
-
-.isicontoh{
-  color: #262626;
-  font-family: Poppins;
-  background-color: #FBF2ED;
-  border: 3px solid #262626;
-  border-radius: 0;
-  width: 100%;
-  text-align: justify;
+  margin: 0 auto;
   padding: 2%;
-  margin-top: -8px;
-}
-
-.diketahui{
-  border: 3px #262626 solid;
-  border-radius: 10px;
-  width:100px;
-  height:30px;
-  text-align:center;
-}
-
-.kesimpulan{
-  color: #262626;
-  font-family: Poppins, Verdana, sans-serif;
-  background-color: #CBDBF6;
-  border: 3px #262626 solid;
-  border-radius: 10px;
-  width: 25%;
+  width: 150px;
   text-align: center;
-  padding: 1%;
 }
 
-.isikesimpulan{
-  color: #262626;
-  font-family: Poppins;
-  background-color: #FBF2ED;
-  border: 3px solid #262626;
-  border-radius: 0;
-  width: 100%;
-  text-align: justify;
-  padding: 2%;
-  margin-top: -8px;
-}
-
+/*==================== ***LATIHAN*** ====================*/
 .petunjukpengerjaan{
   color: #262626;
   font-family: Poppins;
@@ -250,108 +186,73 @@ html, body{
   margin-top: -8px;
 }
 
-.mulaiberlatih{
+.inputdata: before{
+  background-color: #FFFFFF;
+  border: 3px #262626 solid 5px;
+}
+
+/*==================== ***TOMBOL*** ====================*/
+.mulaiberlatih, .cekjawaban{
   background-color: #97B6EC;
-  border: 1px solid #262626;
-  border-radius: 5px;
-  width: 150px;
-  padding: 1%;
-  font-family: Poppins;
-  text-align: center;
-  color: #262626;
-}
-
-.mulaiberlatih:hover{
-  color: #262626;
-  background-color: #CBDBF6;  
-}
-
-.soallatihan{
-  color: #262626;
-  font-family: Poppins, Verdana, sans-serif;
-  background-color: #FF9F98;
-  border: 3px #262626 solid;
-  border-radius: 5px;
-  width: 100%;
-  text-align: center;
-  padding: 1%;
-  margin-top: 3%;
-}
-
-.isisoallatihan{
-  color: #262626;
-  font-family: Poppins;
-  background-color: #FBF2ED;
-  border: 3px solid #262626;
-  border-radius: 0;
-  width: 100%;
-  text-align: justify;
-  padding: 2%;
-  margin-top: -8px;
-}
-
-.cekjawaban{
-  background-color: #97B6EC;
-  border: 1px solid #262626;
+  border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
-  margin: 1%;
+  margin: 3% 0% 3% 0%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 150px;
+  width: 180px;
+  font-family: Poppins, Verdana, sans-serif;
 }
 
-.cekjawaban:hover{
-  background-color: #CBDBF6;
-  border: 1px solid #262626;
-  border-radius: 5px;
+.mulaiberlatih:hover, .cekjawaban:hover{
+  color: #282828;
+  background-color: #FBF2ED; 
 }
 
 .cobalagi{
   background-color: #FF9F98;
-  border: 1px solid #262626;
-  border-radius: 5px;
-  color: #262626;
-  margin: 1%;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-align: center;
-  width: 150px;
-}
-
-.cobalagi:hover{
-  background-color: #FFCFCC;
-  border: 1px solid #262626;
-  border-radius: 5px;
-}
-
-
-/*PAGINATION*/
-.halaman{
-  margin: 0 auto;
-}
-
-.sebelumnya, .selanjutnya{
-  background-color: #97B6EC;
-  border: 1px solid #262626;
+  border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
   margin: 3% 0% 3% 0%;
+  transition-duration: 0.4s;
+  cursor: pointer;
   text-align: center;
   width: 150px;
   font-family: Poppins, Verdana, sans-serif;
 }
 
-.sebelumnya:hover, .selanjutnya:hover{
-  background-color: #97B6EC;
+.cobalagi:hover{
+  color: #282828;
+  background-color: #FBF2ED;
+}
+
+/*==================== ***HALAMAN*** ====================*/
+.halaman{
+  margin: 0 auto;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.sebelumnya, .selanjutnya{
+  background-color: #FBF2ED;
   border: 1px solid #262626;
   border-radius: 5px;
   color: #262626;
+  margin: 3% 0% 3% 0%;
+  text-align: center;
+  width: 150px;
+}
+
+.sebelumnya:hover, .selanjutnya:hover{
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  color: #FFE2E0;
 }
 
 .nohal{
-  background-color: #FFE2E0;
+  background-color: #FBF2ED;
   border: 1px solid #262626;
   border-radius: 5px;
   color: #262626;
@@ -359,8 +260,7 @@ html, body{
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 50px;
-  font-family: Poppins, Verdana, sans-serif;  
+  width: 50px; 
 }
 
 .nohal:hover{
@@ -378,7 +278,6 @@ html, body{
   cursor: pointer;
   text-align: center;
   width: 50px;
-  font-family: Poppins, Verdana, sans-serif; 
 }
 
 .aktif:hover{
@@ -387,6 +286,7 @@ html, body{
   color: #262626;  
 }
 
+/*==================== ***TABEL*** ====================*/
 table{
   text-align: center;
 }

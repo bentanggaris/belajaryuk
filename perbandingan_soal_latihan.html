@@ -14,14 +14,23 @@
 		<!-- Font Awesome -->
 		<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">	
 
-		<!--Mathjax-->
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config({text2jax: {inlineMath: [['$', '$'], ['\\(','\\)']]}});
+		<!-- Mathjax -->
+		<script>
+		MathJax = {
+		  tex: {
+		    inlineMath: [['$', '$'], ['\\(', '\\)']]
+		  }
+		};
 		</script>
+
+		<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+
 		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 		</script>
 		
-		<title>Pengertian Perbandingan | Pendahuluan</title>
+		<title>Pengertian Perbandingan | Coba Yuk</title>
 	</head>
 
 	<body>
@@ -68,43 +77,61 @@
 				</div>
 			</div>
 
+			<!-- Soal-soal Latihan-->
 			<div class="col-sm-9 col-md-9 boxmateri">
 			<div class="card isimateri">
 				<div class="card jdlsubmateri">
 					<h5>Pengertian Perbandingan</h5>
 				</div>
-					
-				<div class="card tujuan">
-					<p><b>Tujuan Pembelajaran</b>
-						<br><br> Melalui penyajian materi dan latihan pada media pembelajaran perbandingan ini, siswa dapat:<br><br>
-						&#9679;&nbsp;&nbsp;&nbsp;	Menyatakan suatu perbandingan dalam bentuk pembagian (notasi "÷"  atau pecahan) dan dalam bentuk selisih dengan tepat.
-					</p>
-				</div>					
 
-				<div class="card jdlpendahuluan">
-					<h6>Pendahuluan</h6>
+				<div class="card jdlsubsub">
+					<h6>Soal Latihan Sub Bab 1 : Perbandingan</h6>
 				</div>
-					
-				<div class="card isipendahuluan">
-					<p>Sebelum memasuki materi, yuk kita tonton dulu video di bawah ini!</p>
 
-					<video class="card videoapersepsi" controls><source src="video/apersepsi_1.mp4" type="video/mp4"></video>
+				<div class="card isisubsub">
+					<!--soal 1-->
+					<p id="randomsoal1"></p>
+					<p id="inputjawaban1" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban1" size="15">&nbsp;&nbsp;<span id="output1"></span>
 
-					<p><span>Setelah menyimak video di atas, yuk kita masuk ke materi pada bagian "Baca, Yuk!". Untuk melanjutkan pada bagian "Baca, Yuk!", silakan klik <b>halaman</b> <button class="btn ketnohalaman">2</button> atau <b>tombol</b> <button class="btn ketselanjutnya">Selanjutnya &raquo;</button> .</span></p>
-				</div>
-					
+					<!--soal 2-->
+					<p id="randomsoal2"></p>
+					<p id="inputjawaban2" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban2" size="15">&nbsp;&nbsp;<span id="output2"></span>
+
+					<!--soal 3-->
+					<p id="randomsoal3"></p>
+					<p id="inputjawaban3" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban3" size="15">&nbsp;&nbsp;<span id="output3"></span>
+
+					<!--soal 4-->
+					<p id="randomsoal4"></p>
+					<p id="inputjawaban4" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban4" size="15">&nbsp;&nbsp;<span id="output4"></span>
+
+					<!--soal 5-->
+					<p id="randomsoal5"></p>
+					<p id="inputjawaban5" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban5" size="15">&nbsp;&nbsp;<span id="output5"></span>							
+															
+					<!--TOMBOL CEK JAWABAN & COBA LAGI-->
+					<br><br><span><input type="button" name="submit" id="cekjawaban"class="btn cekjawaban" value="Cek Jawaban&nbsp;&nbsp;&nbsp;&#8594;">
+
+					<input type="button" id="cobalagi" class="btn cobalagi" value="Coba Lagi&nbsp;&nbsp;&nbsp;&#8634;"></span>						
+				</div>						
+
 				<div class="halaman">
-					<a href="#" class="btn sebelumnya">&laquo; Sebelumnya</a>
+					<a href="perbandingan_contoh.html" class="btn sebelumnya">&laquo; Sebelumnya</a>
 
-					<a href="perbandingan_video.html" class="btn aktif">1</a>
+					<a href="perbandingan_video.html" class="btn nohal">1</a>
 
 					<a href="perbandingan_baca.html" class="btn nohal">2</a>
 
 					<a href="perbandingan_contoh.html" class="btn nohal">3</a>		
 
-					<a href="perbandingan_coba.html" class="btn nohal">4</a>
+					<a href="perbandingan_coba.html" class="btn aktif">4</a>
 
-					<a href="perbandingan_baca.html" class="btn selanjutnya">Selanjutnya &raquo;</a>
+					<a href="dua_besaran_baca.html" class="btn selanjutnya">Selanjutnya &raquo;</a>
 				</div>
 
 			</div>
@@ -115,8 +142,12 @@
 
 	<!-- JQuery -->
     <script src="assets/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap -->
+    
+    <!-- Bootstrap -->   
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="perbandingan_coba.js"></script>
 
 	</body>
 </html>
