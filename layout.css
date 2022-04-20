@@ -14,8 +14,8 @@ html, body{
 
 /*==================== ***BERANDA*** ====================*/
 .isiberanda{
-  margin: 0;
-  padding: 10%;
+  margin: 0 auto;
+  padding: 10% 0% 0% 5%;
 }
 
 .isiberanda h1{
@@ -32,12 +32,7 @@ html, body{
   color: #282828;
   font-weight: normal;
   text-align: left;
-  padding: 0% 0% 4% 0%; 
-}
-
-.gbrberanda{
-  margin: 0 auto;
-  width: 100%;
+  padding: 0% 0% 4% 0%;
 }
 
 .btnberanda{
@@ -60,6 +55,10 @@ html, body{
   background-color: #97B6EC;
 }
 
+.gbrberanda{
+  padding: ;
+  width: 600px;
+}
 /*==================== ***NAVBAR*** ====================*/
 .navbar a:hover{
   -webkit-transform: scale(1.08);
@@ -134,7 +133,7 @@ h4{
 }
 
 
-/*==================== ***EVALUASI*** ====================*/
+/*==================== ***EVALUASI PETUNJUK & FORM*** ====================*/
 .boxpetunjuk, .boxdatadiri{
   margin: 5% 0% 0% 0%;
   padding: 7% 3% 3% 3%;
@@ -175,7 +174,7 @@ h4{
   margin: -8px 0% 0% 0%;
 }
 
-.mulaiberlatih{ 
+.mulai{ 
   background-color: #97B6EC;
   border: 1px solid #282828;
   border-radius: 5px;
@@ -184,15 +183,17 @@ h4{
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 170px;
+  width: 120px;
   font-family: Poppins, Verdana, sans-serif;
 }
 
-.mulaiberlatih:hover{
+.mulai:hover{
   color: #282828;
   background-color: #FBF2ED;  
 }
 
+
+/*==================== ***SOAL EVALUASI*** ====================*/
 .evaluasi{
   margin: 7% 3% 3% 3%;
 }
@@ -243,23 +244,6 @@ h4{
   border: 1px solid #282828;
 }
 
-.cekjawaban{
-  background-color: #97B6EC;
-  border: 1px solid #282828;
-  border-radius: 5px;
-  color: #262626;
-  margin: 1%;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-align: center;
-  width: 150px;
-}
-
-.cekjawaban:hover{
-  background-color: #FBF2ED;
-  border: 1px solid #282828;
-}
-
 /*==================== ***NILAI EVALUASI*** ====================*/
 
 .ketnilaievaluasi{
@@ -295,9 +279,7 @@ h4{
 /*==================== ***SIDEBAR*** ====================*/
 .boxsidebar{
   background-color: #FCF4EC;
-  width: 100%;
-  height: 100%;
-  margin: 7% 0% 0% 0%;
+  margin: 6% 0% 0% 0%;
   font-family: Poppins, Verdana, sans-serif;
   font-size: 1rem;
   text-align: left;
@@ -311,19 +293,17 @@ h4{
   color: #262626;
   text-align: justify;
   display: block;
-  width: 100%;
-  margin: 5% 0% 0% 0%;  
+  margin: 5% 0% 0% 0%;
+  border-radius: 10px;
 }
 
 .sidebar a.active {
   background-color: #98B6EC;
   color: #262626;
-  border-radius: 10px;
 }
 
 .sidebar a:hover:not(.active) {
   background-color: #D4D4D4;
-  border-radius: 10px; 
   color: #262626;
   cursor: pointer;
 }
@@ -331,8 +311,8 @@ h4{
 /*==================== ***KI, KD & INFORMASI*** ====================*/
 .boxinfo, .boxkikd{
   background-color: #FCF4EC;
-  width: 100%;
-  margin: 7% 0% 0% 0%;
+/*  width: 100%;*/
+  margin: 6% 0% 0% 0%;
   font-family: Poppins, Verdana, sans-serif; 
 }
 
@@ -340,7 +320,7 @@ h4{
   background-color: #FFE2E0;
   border-radius: 10px;
   border: 0;
-  height: 470px;
+  height: 480px;
   margin: 3% 3% 3% 3%;  
   padding: 3%;
   overflow: auto;
@@ -349,13 +329,3 @@ h4{
   line-height: 27px;
   letter-spacing: 0.5px;
 }
-
-/*.peta_konsep{
-  transition: transform .2s;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.peta_konsep:hover{
-  transform: scale(1.5);
-}*/

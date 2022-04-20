@@ -43,7 +43,7 @@
 
 					&#9679;&nbsp;&nbsp;&nbsp;Setelah menjawab semua pertanyaan pada soal, silakan klik tombol "Lihat Hasil" untuk melihat nilaimu.</br></br>	
 
-					&#9679;&nbsp;&nbsp;&nbsp;Sebelum memulai, yuk isi data diri kamu terlebih dahulu pada form <b>"Data Diri Siswa"</b>. Masukkan namamu pada kolom <b>"Nama Siswa"</b> dan pilih <b>"Kelas"</b>, lalu klik tombol <button class="btn" style="background-color: #97B6EC; border: 1px solid #282828; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 170px; font-family: Poppins, Verdana, sans-serif;">Mulai Berlatih&nbsp;&nbsp;&nbsp;&#8594;</button> untuk mulai mengerjakan soal-soal evaluasi pada materi ini.</br></br>	
+					&#9679;&nbsp;&nbsp;&nbsp;Sebelum memulai, yuk isi data diri kamu terlebih dahulu pada form <b>"Data Diri Siswa"</b>. Masukkan namamu pada kolom <b>"Nama Siswa"</b> dan pilih <b>"Kelas"</b>, lalu klik tombol <button class="btn" style="background-color: #97B6EC; border: 1px solid #282828; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 120px; font-family: Poppins, Verdana, sans-serif;">Mulai&nbsp;&nbsp;&nbsp;&#8594;</button> untuk mulai mengerjakan soal-soal evaluasi pada materi ini.</br></br>	
 
 					&#9679;&nbsp;&nbsp;&nbsp; Eits, jangan lupa baca doa, ya! Selamat mengerjakan dan semangat!&#9786;</p></span>
 				</div>
@@ -66,7 +66,7 @@
 						</select></p></div>
 
 						<!--tombol mulai-->
-						<button class="btn mulaiberlatih" style="margin-top: 3%;">Mulai Berlatih&nbsp;&nbsp;&nbsp;&#8594;</button>
+						<button class="btn mulai" style="margin-top: 3%;">Mulai&nbsp;&nbsp;&nbsp;&#8594;</button>
 			</div>	
 			</div>
 		
@@ -80,11 +80,11 @@
 
     <!-- Sisipan Javascript -->
     <script>
-    	const mulaiberlatih = document.querySelector('.mulaiberlatih');
+    	const mulai = document.querySelector('.mulai');
     	const nama = document.getElementById('nama');
 		const kelas = document.getElementById('kelas');
 
-        mulaiberlatih.addEventListener('click', function(){
+        mulai.addEventListener('click', function(){
             if(nama.value =="" || kelas.value ==""){
                 alert("Silakan isi nama terlebih dahulu")
             }else{

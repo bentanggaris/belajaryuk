@@ -1,13 +1,13 @@
+// Merandom soal
 let randomEvaluasi=evaluasi.sort((a, b)=>{return 0.5 - Math.random()})
 
-// memotong soal
-// let sliceEvaluasi=randomEvaluasi.slice(0,10)
+// Memotong soal
+// let sliceEvaluasi=randomEvaluasi.slice(0,5)
 
 var i = 0;
 var correctCount = 0 ;
 
 generate(0);
-
 
 function generate(index) {
     document.getElementById("soaltampil").innerHTML = evaluasi[index].soal;
