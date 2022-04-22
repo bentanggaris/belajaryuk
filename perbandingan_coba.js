@@ -17,14 +17,10 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban1").html());
 		
 		if(a===b){
-			var myImage = new Image(30, 30);
-			myImage.src = 'img/silang.svg';
-			x.appendChild(myImage);			
+			$("#output1").html("<img src='img/benar.svg' style= 'width: 30px;'>");
 		}
 		else{
-			var myImage = new Image(30, 30);
-			myImage.src = 'img/silang.svg';
-			x.appendChild(myImage);			
+			$("#output1").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
 	
@@ -44,13 +40,10 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban2").html());
 		
 		if(a===b){
-			$("#output2").html("&#10004");
-			$("#output2").css("color","#5688E0");
+			$("#output2").html("<img src='img/benar.svg' style= 'width: 30px;'>");
 		}
 		else{
-			$("#output2").html("&#128473");
-			$("#output2").css("color","#FF5347");
-
+			$("#output2").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
 	
@@ -70,13 +63,10 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban3").html());
 		
 		if(a===b){
-			$("#output3").html("&#10004");
-			$("#output3").css("color","#5688E0");
+			$("#output3").html("<img src='img/benar.svg' style= 'width: 30px;'>");
 		}
 		else{
-			$("#output3").html("&#128473");
-			$("#output3").css("color","#FF5347");
-
+			$("#output3").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
 
@@ -96,13 +86,10 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban4").html());
 		
 		if(a===b){
-			$("#output4").html("&#10004");
-			$("#output4").css("color","#5688E0");
+			$("#output4").html("<img src='img/benar.svg' style= 'width: 30px;'>");
 		}
 		else{
-			$("#output4").html("&#128473");
-			$("#output4").css("color","#FF5347");
-
+			$("#output4").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
 
@@ -123,13 +110,10 @@ $(document).ready(function(){
 		let b = parseInt($("#inputjawaban5").html());
 		
 		if(a===b){
-			$("#output5").html("&#10004");
-			$("#output5").css("color","#5688E0");
+			$("#output5").html("<img src='img/benar.svg' style= 'width: 30px;'>");
 		}
 		else{
-			$("#output5").html("&#128473");
-			$("#output5").css("color","#FF5347");
-
+			$("#output5").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
 	
