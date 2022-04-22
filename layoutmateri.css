@@ -118,35 +118,38 @@ html, body{
 }
 
 .ketnohalaman{
-  background-color: #FFE2E0;
+  background-color: #FBF2ED;
   border: 1px solid #262626;
   border-radius: 5px;
   color: #262626;
+  margin: 1%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 50px;
-  font-family: Poppins, Verdana, sans-serif;  
+  width: 50px; 
 }
 
 .ketselanjutnya{
-  background-color: #97B6EC;
+  background-color: #FBF2ED;
   border: 1px solid #262626;
   border-radius: 5px;
   color: #262626;
+  margin: 1%;
   text-align: center;
   width: 150px;
-  font-family: Poppins, Verdana, sans-serif;
 }
 
 .rumus{
-  background-color: #FF9F98;
+  background-color: #CBDBF6;
   border: 1px solid #262626;
   border-radius: 10px;
   margin: 0 auto;
   padding: 2%;
-  width: 150px;
   text-align: center;
+}
+
+mark{
+  background-color: #FFD9D6;
 }
 
 /*==================== ***LATIHAN*** ====================*/
@@ -288,13 +291,14 @@ html, body{
 
 /*==================== ***TABEL*** ====================*/
 table{
+  margin: 0 auto;
   text-align: center;
 }
 
 th{
   background-color: #CBDBF6;
   border:  1px solid #262626;
-  padding: 1%;
+  padding: 3%;  
 }
 
 td{
