@@ -89,7 +89,8 @@ h4{
 /*==================== ***MENU*** ====================*/
 .menu{
   text-align: center;
-  padding: 10% 0% 10% 0%;
+  margin-top: 5%;
+  padding: 8% 0% 0% 0%;
 }
 
 .btnmenubiru{
@@ -133,7 +134,7 @@ h4{
 }
 
 
-/*==================== ***EVALUASI PETUNJUK & FORM*** ====================*/
+/*==================== ***EVALUASI, PETUNJUK, & FORM*** ====================*/
 .boxpetunjuk, .boxdatadiri{
   margin: 5% 0% 0% 0%;
   padding: 7% 3% 3% 3%;
@@ -150,7 +151,7 @@ h4{
   padding: 1%;
 }
 
-.isipetunjuk{
+.isipetunjuk, .isidatadiri{
   color: #282828;
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FCF4EC;
@@ -158,18 +159,7 @@ h4{
   border-radius: 0px;
   width: 100%;
   text-align: left;
-  padding: 3%;
-  margin: -8px 0% 0% 0%;
-}
-
-.isidatadiri{
-  color: #282828;
-  font-family: Poppins;
-  background-color: #FBF2ED;
-  border: 3px solid #282828;
-  border-radius: 0;
-  width: 100%;
-  text-align: left;
+  letter-spacing: 0.5px;
   padding: 3%;
   margin: -8px 0% 0% 0%;
 }
@@ -194,13 +184,17 @@ h4{
 
 
 /*==================== ***SOAL EVALUASI*** ====================*/
-.evaluasi{
-  margin: 7% 3% 3% 3%;
+.boxevaluasi{
+  margin: 80px 30px 0px 30px;
+  padding: 5% 0% 0% 0%;  
+  border: 0;
 }
 
-.boxevaluasi{
-  padding-top: 5%;
-  overflow: auto;
+.boxisisoal,.boxtombol{
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: 0;  
 }
 
 .labelevaluasi{
@@ -209,9 +203,9 @@ h4{
   background-color: #FF9F98;
   border: 3px #282828 solid;
   border-radius: 10px;
-  width: 100%;
   text-align: center;
   padding: 1%;
+  width: 100%; 
 }
 
 .isievaluasi{
@@ -220,10 +214,12 @@ h4{
   background-color: #FBF2ED;
   border: 3px solid #282828;
   border-radius: 0;
-  width: 100%;
   text-align: justify;
   padding: 3%;
   margin-top: -8px; 
+  width: 100%;
+  height: 300px;
+  overflow: auto;
 }
 
 .soalselanjutnya{
@@ -231,7 +227,7 @@ h4{
   border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
-  margin: 3% 0% 3% 0%;
+  margin: 2% 0% 2% 0%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;

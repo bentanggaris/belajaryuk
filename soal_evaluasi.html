@@ -36,44 +36,43 @@
 
 		<!-- Isi Soal Evaluasi -->
 		<div class="container-fluid">			
-		<div class="row evaluasi">
-			<div class="boxevaluasi">
+		<div class="row boxevaluasi">
 
-			<div class="labelevaluasi">
-				<b>Soal Evaluasi Perbandingan</b>
+			<div class="card boxisisoal">
+				<div class="labelevaluasi">
+					<b>Soal Evaluasi Perbandingan</b>
+				</div>
+				<div class="isievaluasi">
+					<!--keterangan nomor soal-->
+					<p><b>Soal 1 dari 20</b></p>
+					<hr color=#262626;>
+				
+					<!--soal-->
+					<div id="soaltampil"></div>
+					<div>
+						<p><input type="radio" id="a" name="pilihan">
+						<span id="pil1"></span></p>
+					</div>
+					<div>
+						<p><input type="radio" id="b" name="pilihan">
+						<span id="pil2"></span></p>
+					</div>	
+					<div>
+						<p><input type="radio" id="c" name="pilihan">
+						<span id="pil3"></span></p>
+					</div>
+					<div>
+						<p><input type="radio" id="d" name="pilihan">
+						<span id="pil4"></span></p>
+					</div>
+				</div>
 			</div>
 
-			<div class="isievaluasi">
-
-				<!--keterangan nomor soal-->
-				<p><b>Soal 1 dari 20</b></p>
-				<hr color=#262626;>
-				
-				<!--soal-->
-
-				<div id="soaltampil"></div>
-
-				<div>
-					<p><input type="radio" id="a" name="pilihan">
-					<span id="pil1"></span></p>
-				</div>
-				<div>
-					<p><input type="radio" id="b" name="pilihan">
-					<span id="pil2"></span></p>
-				</div>									
-				<div>
-					<p><input type="radio" id="c" name="pilihan">
-					<span id="pil3"></span></p>
-				</div>
-				<div>
-					<p><input type="radio" id="d" name="pilihan">
-					<span id="pil4"></span></p>
-				</div>
-
-				<!--tombol lanjutan-->
+			<!--tombol lanjutan-->
+			<div class="boxtombol">
 				<button class="btn soalselanjutnya" onclick="checkAnswer()"> Soal Selanjutnya&nbsp;&nbsp;&nbsp;&#8594;</button>
 			</div>
-			</div>
+
 		</div>
 		</div>
 
