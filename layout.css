@@ -13,6 +13,10 @@ html, body{
 }
 
 /*==================== ***BERANDA*** ====================*/
+.beranda{
+  margin: 0% 5% 0% 5%;
+}
+
 .isiberanda{
   margin: 0 auto;
   padding: 10% 0% 0% 5%;
@@ -32,7 +36,7 @@ html, body{
   color: #282828;
   font-weight: normal;
   text-align: left;
-  padding: 0% 0% 4% 0%;
+  padding: 0% 0% 5% 0%;
 }
 
 .btnberanda{
@@ -56,8 +60,7 @@ html, body{
 }
 
 .gbrberanda{
-  padding: ;
-  width: 600px;
+  width: 550px;
 }
 /*==================== ***NAVBAR*** ====================*/
 .navbar a:hover{
