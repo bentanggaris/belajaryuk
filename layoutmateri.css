@@ -6,6 +6,19 @@ html, body{
 }
 
 /*==================== ***SIDEBAR*** ====================*/
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FFC4C0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF8D85;
+  border-radius: 25px;  
+}
+
 .sidebar{
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FCF4EC;
