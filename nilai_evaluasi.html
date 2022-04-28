@@ -17,7 +17,7 @@
 		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 		</script>
 
-		<title>Soal Evaluasi Perbandingan</title>
+		<title>Hasil Evaluasi Perbandingan</title>
 	</head>
 		
 	<!-- BATAS -->
@@ -25,34 +25,57 @@
 	<body>
 		<!-- NAVBAR-->
 		<div class="container-fluid">
-			<div class="row" style="margin-bottom: 20%;">
+		<div class="row">
 			<nav class="navbar fixed-top" style="background-color: #97B6EC;">
-				<a href="evaluasi.html"><img src="img/back.svg" class="img-fluid" style="width:6vw;"></a>
+				<a href="menu.html"><img src="img/back.svg" class="img-fluid navicon"></a>
 				<h4>EVALUASI</h4>
-				<a href="index.html"><img src="img/home.svg" class="img-fluid" style="width:6vw;"></a>
+				<a href="index.html"><img src="img/home.svg" class="img-fluid navicon"></a>				
 			</nav>
-			</div>
-
-			<!-- Box Hasil Nilai -->
-			<div class="row" style="margin: 0 auto;">
-				<div class="ketnilaievaluasi">
-				<p> Hai, <b>Kamu!</b><br>
-				Nilaimu adalah <b>sekian</b></p>
-
-				<!--tombol kembali ke materi-->
-				<a href="perbandingan_video.html" class="btn kembalimateri">Kembali ke Materi&nbsp;&nbsp;&nbsp;&#8594;</a>				
-				</div>
-			</div>				
+		</div>
 		</div>
 
+		<!-- Isi Soal Evaluasi -->
+		<div class="container-fluid">			
+		<div class="row boxevaluasi">
+
+			<div class="card boxisihasil">
+				<div class="labelhasilevaluasi">
+					<b>Hasil Evaluasi Perbandingan</b>
+				</div>
+				<div class="hasilevaluasi">
+	<!-- 				<p>
+						Nama : <p class="namasiswa"></p><br>
+						Kelas : <p class="kelassiswa"></p><br>
+						Nilai : <p class="nilaisiswa"></p><br>
+						Keterangan : <p class="ketsiswa"></p><br>
+					</p> -->
+
+					<p>
+						Hai <b id="namasiswa"></b> dari kelas <b id="kelassiswa"></b>! Selamat, kamu <b id="ketsiswa"></b> dengan nilai <b id="nilaisiswa"></b><br>
+					</p>					
+				</div>
+			</div>
+		</div>
+
+		<!-- Tombol Kembali ke Materi-->
+		<div class="row">
+			<div class="card boxtombolkembali">
+				<a href="perbandingan_video.html" class="btn kembalimateri">Kembali ke Materi&nbsp;&nbsp;&nbsp;&#8594;</a>
+			</div>
+		</div>
+
+		</div>
 
 	<!-- JQuery -->
     <script src="assets/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap -->
     
+    <!-- Bootstrap -->  
     <script src="assets/js/bootstrap.min.js"></script>
 
-    <script src="soal_evaluasi.js"></script>
+    <!-- Sisipan Javascript -->
+<!--     <script src="soal_evaluasi.js"></script> -->
+    <script src="evaluasi.js"></script>     
+    <!-- Firebase -->  
 
 	</body>
 </html>

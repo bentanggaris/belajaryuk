@@ -11,7 +11,11 @@ function generate(index) {
     document.getElementById("pil4").innerHTML = evaluasi[index].d;    
 }
 
+let i = 0;
+let jwbBenar
+
 function cekBenarnya() {
+
     if (document.getElementById("a").checked && evaluasi[i].a == evaluasi[i].jawaban) {
        jwbBenar++;
     }
@@ -24,14 +28,10 @@ function cekBenarnya() {
     if (document.getElementById("d").checked && evaluasi[i].d == evaluasi[i].jawaban) {
         jwbBenar++;
     }
-
-    i++;
-    if (evaluasi.length-1 < i) {
-        let totalBenarnya = jwbBenar
-    }
 }
 
-let totalNilai = (20 - parseInt(totalBenarnya)) * 10
+let totalBenarnya = 20 - jwbBenar
+let totalNilai = totalBenarnya * 10
 
 function cekHasil() {
     document.write("<body style='background-color:#FCF4EC;'>");

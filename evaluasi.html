@@ -81,19 +81,23 @@
 
     <!-- Sisipan Javascript -->
     <script>
-    	const mulai = document.querySelector('.mulai');
-    	const nama = document.getElementById('nama');
-		const kelas = document.getElementById('kelas');
-
-        mulai.addEventListener('click', function(){
+    	const namaSiswa = document.getElementById('nama');
+		const kelasSiswa = document.getElementById('kelas');
+    	const mulaiEvaluasi = document.querySelector('.mulai');
+    	
+        mulaiEvaluasi.addEventListener('click', function(){
             if(nama.value =="" || kelas.value ==""){
-                alert("Silakan isi nama terlebih dahulu")
+                alert("Silakan isi nama terlebih dahulu!")
             }else{
                 localStorage.setItem('nama', nama.value)
                 localStorage.setItem('kelas', kelas.value)
                 window.location = "soal_evaluasi.html"
             }
         })	
+
+        // console.log(nama)
+        // console.log(kelas)
+        // console.log(mulai)
     </script>
 
 	</body>
