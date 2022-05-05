@@ -1,96 +1,96 @@
 {
 	"perbandingan1":[
 		{
-			"soal1" : "1. Sebuah mesin fotokopi membutuhkan waktu 120 detik untuk mencetak 10 kertas, sedangkan mesin printer membutuhkan waktu 4 menit untuk mencetak 10 kertas. Perbandingan antara waktu yang diperlukan mesin printer dan mesin fotokopi dalam satuan detik adalah",
-			"jawab1" : "2:1"
+			"soal1" : "1. Salah satu SMP di Pagatan menyediakan beberapa kegiatan ekstrakurikuler untuk siswa-siswinya. Pramuka merupakan kegiatan ekstrakurikuler wajib untuk kelas VII hingga kelas VIII dan setiap siswa hanya boleh mengikuti satu jenis ekstrakurikuler pilihan. Adapun jumlah siswa secara keseluruhan di sekolah tersebut adalah 255 siswa. Berikut ini merupakan data jumlah siswa pada tiap jenis ekstrakurikulernya:<br><br><table class='tabel_menurun'> <tr> <th>Jenis Ekstrakurikuler</th> <th>Jumlah Siswa</th> </tr> <tr> <td>Pramuka Putera/Puteri (PMK)</td> <td>158</td> </tr> <tr> <td>Bulu Tangkis</td> <td>65</td> </tr> <tr> <td><i>English Club</i> (EC)</td> <td>40</td> </tr> <tr> <td>Palang Merah Remaja (PMR)</td> <td>55</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara banyaknya siswa yang memilih ekstrakurikuler bulu tangkis terhadap ekstrakurikuler english club adalah ....",
+			"jawab1" : "13:8"
 		},
 		{
-			"soal1" : "1. Ibu ingin membuat tiga loyang kue brownies. Berdasarkan resep yang ada, ibu memerlukan setengah kilogram gula pasir, 250 gram tepung terigu dan beberapa bahan yang lainnya. Jika dilakukan perbandingan, maka perbandingan antara banyaknya gula pasir dan tepung terigu yang ibu perlukan adalah",
-			"jawab1" : "5:1"
+			"soal1" : "1. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara harga pulpen dengan harga buku gambar adalah Rp ....",
+			"jawab1" : [500, "500,00"]
 		},
 		{
-			"soal1" : "1. Rina membeli 10 buku tulis seharga Rp20.000,00 untuk perlengkapan semester baru di sekolahnya. Perbandingan harga dan banyaknya buku tulis yang ia beli adalah",
-			"jawab1" : "2.000:1"
+			"soal1" : "1. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih banyaknya stok nasi goreng dengan nasi kuning adalah ... bungkus.",
+			"jawab1" : 2
 		},
 		{
-			"soal1" : "1. Vebri membeli roti 12 buah seharga Rp54.000,00. Perbandingan antara harga dan jumlah roti yang ia beli adalah",
-			"jawab1" : "4.500:1"
+			"soal1" : "1. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan harga kuota internet 2 GB dengan kuota internet 1 GB adalah ....",
+			"jawab1" : "11:8"
 		}					
 	],
 
 	"perbandingan2":[
 		{
-			"soal2" : "2. Tia bekerja di salah satu toko buku sebagai kasir. Per bulannya, ia menerima gaji sebanyak Rp2.000.000,00. Jika dalam sebulan Tia mempunyai waktu libur 5 hari, maka gaji per hari yang Tia peroleh adalah",
-			"jawab2" : ["80.000", "80.000,00"]
+			"soal2" : "2. Salah satu SMP di Pagatan menyediakan beberapa kegiatan ekstrakurikuler untuk siswa-siswinya. Pramuka merupakan kegiatan ekstrakurikuler wajib untuk kelas VII hingga kelas VIII dan setiap siswa hanya boleh mengikuti satu jenis ekstrakurikuler pilihan. Adapun jumlah siswa secara keseluruhan di sekolah tersebut adalah 255 siswa. Berikut ini merupakan data jumlah siswa pada tiap jenis ekstrakurikulernya:<br><br><table class='tabel_menurun'> <tr> <th>Jenis Ekstrakurikuler</th> <th>Jumlah Siswa</th> </tr> <tr> <td>Pramuka Putera/Puteri (PMK)</td> <td>158</td> </tr> <tr> <td>Bulu Tangkis</td> <td>65</td> </tr> <tr> <td><i>English Club</i> (EC)</td> <td>40</td> </tr> <tr> <td>Palang Merah Remaja (PMR)</td> <td>55</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara jumlah siswa yang mengikuti ekstrakurikuler pramuka dengan siswa yang mengikuti ekstrakurikuler bulu tangkis adalah ....",
+			"jawab2" : 93
 		},
 		{
-			"soal2" : "2. Lian pergi ke pasar membeli minyak goreng untuk kebutuhan di rumahnya selama dua bulan. Tiap satu bulan, ia menghabiskan satu kemasan minyak goreng ukuran 1 liter dan satu kemasan minyak goreng ukuran 500 ml. Jika dua bulan, ia menghabiskan tiga kemasan minyak goreng yang berukuran 1 liter. Perbandingan antara minyak goreng untuk satu bulan dan minyak goreng untuk dua bulan adalah",
-			"jawab2" : "1:2"
+			"soal2" : "2. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut,perbandingan harga buku tulis dan buku gambar adalah ....",
+			"jawab2" : "5:3"
 		},
 		{
-			"soal2" : "2. Aline sangat menyukai kopi. Ia berencana akan membeli 5.000 gram kopi arabika gayo aceh dan 10 kg kopi arabika toraja. Perbandingan antara berat kopi arabika gayo aceh dengan kopi arabika toraja adalah",
+			"soal2" : "2. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan jumlah stok nasi ayam lalapan dengan nasi kuning adalah ....",
 			"jawab2" : "2:1"
 		},
 		{
-			"soal2" : "2. Kelompok tani di Pakatellu masing-masing memperoleh 140 kg bibit beras unus mutiara dan 180.000 gram beras siam. Perbandingan antara berat beras unus mutiara dan beras siam adalah",
-			"jawab2" : "7:9"
+			"soal2" : "2. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih harga kuota 15 GB dengan kuota 3 GB adalah Rp ....",
+			"jawab2" : [20000, "20.000", "20.000,00"]
 		}		
 	],
 
 	"perbandingan3":[
 		{
-			"soal3" : "3. Iril melakukan olahraga lari di tiap minggunya. Pada minggu pertama, ia berlari sejauh 200 meter, sedangkan di minggu kedua ia berlari sejauh 24.000 cm. Perbandingan jarak (dalam satuan meter) lari antara minggu kedua dengan minggu pertama adalah",
-			"jawab3" : "6:5"
+			"soal3" : "3. Salah satu SMP di Pagatan menyediakan beberapa kegiatan ekstrakurikuler untuk siswa-siswinya. Pramuka merupakan kegiatan ekstrakurikuler wajib untuk kelas VII hingga kelas VIII dan setiap siswa hanya boleh mengikuti satu jenis ekstrakurikuler pilihan. Adapun jumlah siswa secara keseluruhan di sekolah tersebut adalah 255 siswa. Berikut ini merupakan data jumlah siswa pada tiap jenis ekstrakurikulernya:<br><br><table class='tabel_menurun'> <tr> <th>Jenis Ekstrakurikuler</th> <th>Jumlah Siswa</th> </tr> <tr> <td>Pramuka Putera/Puteri (PMK)</td> <td>158</td> </tr> <tr> <td>Bulu Tangkis</td> <td>65</td> </tr> <tr> <td><i>English Club</i> (EC)</td> <td>40</td> </tr> <tr> <td>Palang Merah Remaja (PMR)</td> <td>55</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara jumlah siswa yang mengikuti ekstrakurikuler PMR dengan siswa yang mengikuti ekstrakurikuler english club adalah ... orang.",
+			"jawab3" : 10
 		},
 		{
-			"soal3" : "3. Jarak antara gang tempat tinggal Pahya dan gang tempat tinggal Rahma adalah 130 meter, sedangkan jarak antara gang Pahya dan Maria adalah 5.000 cm. Perbandingan antara jarak gang Pahya menuju gang Rahma dan Maria dalam satuan meter adalah",
-			"jawab3" : "13:5"
+			"soal3" : "3. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut,perbandingan harga penggaris dan pulpen adalah ....",
+			"jawab3" : "5:4"
 		},
 		{
-			"soal3" : "3. Tia dan Elfa ingin membuat jus anggur untuk dibagikan ke teman-temannya. Mereka memerlukan 4 kilogram anggur yang didapatkan dengan harga Rp160.000,00. Perbandingan antara harga dan jumlah anggur yang mereka perlukan adalah",
-			"jawab3" : "40.000:1"
+			"soal3" : "3. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan jumlah stok nasi ayam lalapan dengan mie goreng adalah ....",
+			"jawab3" : "4:3"
 		},
 		{
-			"soal3" : "3. Umi membeli 12 bungkus minuman jeruk sachet seharga Rp18.000,00. Perbandingan antara harga dan jumlah minuman jeruk adalah",
-			"jawab3" : "1.500:1"
+			"soal3" : "3. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih harga kuota 7 GB dengan kuota 2 GB adalah Rp ....",
+			"jawab3" : [10000, "10.000", "10.000,00"]
 		}		
 	],
 
 	"perbandingan4":[
 		{
-			"soal4" : "4. Suhu di Banjarmasin berada pada 28℃ dalam 12 jam terakhir. Jadi, perbandingan antara suhu dan waktu di Banjarmasin adalah",
-			"jawab4" : "7:3"
+			"soal4" : "4. Salah satu SMP di Pagatan menyediakan beberapa kegiatan ekstrakurikuler untuk siswa-siswinya. Pramuka merupakan kegiatan ekstrakurikuler wajib untuk kelas VII hingga kelas VIII dan setiap siswa hanya boleh mengikuti satu jenis ekstrakurikuler pilihan. Adapun jumlah siswa secara keseluruhan di sekolah tersebut adalah 255 siswa. Berikut ini merupakan data jumlah siswa pada tiap jenis ekstrakurikulernya:<br><br><table class='tabel_menurun'> <tr> <th>Jenis Ekstrakurikuler</th> <th>Jumlah Siswa</th> </tr> <tr> <td>Pramuka Putera/Puteri (PMK)</td> <td>158</td> </tr> <tr> <td>Bulu Tangkis</td> <td>65</td> </tr> <tr> <td><i>English Club</i> (EC)</td> <td>40</td> </tr> <tr> <td>Palang Merah Remaja (PMR)</td> <td>55</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara siswa yang memilih bulu tangkis dengan jumlah seluruh siswa adalah ....",
+			"jawab4" : "51:13"
 		},
 		{
-			"soal4" : "4. Uci berkendara melewati jalan A dengan jarak 5 km dan waktu tempuhnya adalah 25 menit. Perbandingan antara jarak dan waktu yang ditempuh Uci dalam berkendara adalah",
-			"jawab4" : "1:5"
+			"soal4" : "4. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara harga buku tulis dengan buku gambar adalah Rp ....",
+			"jawab4" : [1000, "1.000", "1.000,00"]
 		},
 		{
-			"soal4" : "4. Pak Fatih membeli 10 liter solar dan 5.000 ml bensin. Perbandingan antara banyaknya solar dan bensin adalah",
+			"soal4" : "4. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara stok mie goreng dengan stok nasi goreng adalah ... bungkus.",
+			"jawab4" : 3
+		},
+		{
+			"soal4" : "4. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara harga kuota internet 7 GB dengan kuota internet 1 GB adalah ....",
 			"jawab4" : "2:1"
-		},
-		{
-			"soal4" : "4. Selama dua hari ini Yulia melakukan latihan bulu tangkis. Pada hari pertama, ia menghabiskan waktu selama 2 jam untuk latihan dan di hari kedua Yulia menghabiskan waktu 180 menit. Perbandingan waktu yang dihabiskan Yulia pada hari pertama dan hari kedua dalam bentuk yang paling sederhana adalah",
-			"jawab4" : "2:3"
-		}		
+		}	
 	],
 
 	"perbandingan5":[
 		{
-			"soal5" : "5. Rahel ingin memasak mie instan. Berdasarkan petunjuk, untuk merebus mie instan diperlukan air sebanyak 440 ml dan durasi waktu selama 4 menit. Perbandingan antara volume air dan waktu dalam merebus mie instan adalah",
-			"jawab5" : "110:1"
+			"soal5" : "5. Salah satu SMP di Pagatan menyediakan beberapa kegiatan ekstrakurikuler untuk siswa-siswinya. Pramuka merupakan kegiatan ekstrakurikuler wajib untuk kelas VII hingga kelas VIII dan setiap siswa hanya boleh mengikuti satu jenis ekstrakurikuler pilihan. Adapun jumlah siswa secara keseluruhan di sekolah tersebut adalah 255 siswa. Berikut ini merupakan data jumlah siswa pada tiap jenis ekstrakurikulernya:<br><br><table class='tabel_menurun'> <tr> <th>Jenis Ekstrakurikuler</th> <th>Jumlah Siswa</th> </tr> <tr> <td>Pramuka Putera/Puteri (PMK)</td> <td>158</td> </tr> <tr> <td>Bulu Tangkis</td> <td>65</td> </tr> <tr> <td><i>English Club</i> (EC)</td> <td>40</td> </tr> <tr> <td>Palang Merah Remaja (PMR)</td> <td>55</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara banyaknya siswa yang mengikuti ekstrakurikuler bulu tangkis dengan siswa yang mengikuti ekstrakurikuler english club adalah ....",
+			"jawab5" : 25
 		},
 		{
-			"soal5" : "5. Kak Karin bersekolah di salah satu SMK swasta. Jika dihitung pertahun, maka ia harus mengeluarkan biaya SPP sebanyak Rp3.000.000,00. Jika kakak membayar SPP per bulan, maka uang yang harus dikeluarkan yaitu sebanyak",
-			"jawab5" : ["250.000", "250.000,00"]
+			"soal5" : "5. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara harga buku tulis dengan buku gambar adalah Rp ....",
+			"jawab5" : [1000, "1.000", "1.000,00"]
 		},
 		{
-			"soal5" : "5. Dalam setahun ini Mira mengikuti dua kelas kursus sekaligus. Kelas kursus pertama adalah Bahasa Inggris dengan masa tempuh dari bulan Januari hingga di bulan April. Lalu, pada bulan Agustus hingga bulan selanjutnya, yang terhitung selama 150 hari, ia mengikuti kelas kursus matematika. Perbandingan antara jumlah hari pada kelas pertama dengan kelas kedua yang diikuti Mira adalah",
-			"jawab5" : "4:5"
+			"soal5" : "5. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan jumlah stok nasi goreng dengan stok nasi kuning adalah ....",
+			"jawab5" : 3
 		},
 		{
-			"soal5" : "5. Bapak Nanda memelihara ikan cupang dan ikan mas koki. Di rumahnya ia memiliki dua akuarium yang berbeda. Akuarium untuk ikan cupang diisi dengan 20.000 ml air, sedangkan akuarium untuk ikan mas koki diisi dengan 38 liter air. Perbandingan antara volume air pada akuarium ikan mas koki dengan volume air di akuarium ikan cupang adalah",
-			"jawab5" : "19:10"
+			"soal5" : "5. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara harga kuota internet 7 GB dengan kuota internet 2 GB adalah ....",
+			"jawab5" : "16:11"
 		}		
 	]		
 }

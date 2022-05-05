@@ -1,96 +1,96 @@
 {
 	"senilai1":[
 		{
-			"soal1" : "1. Ibu membeli ikan kering sepat sebanyak 250 gram seharga Rp45.000,00. Jika ibu membeli 1 kilogram ikan kering sepat, maka uang yang harus ibu keluarkan adalah Rp",
+			"soal1" : "1. Ibu membeli ikan kering sepat sebanyak 250 gram seharga Rp45.000,00. Jika ibu membeli 1 kilogram ikan kering sepat, maka uang yang harus ibu keluarkan adalah Rp .... ",
 			"jawab1" : ["180.000", "180.000,00"]
 		},
 		{
-			"soal1" : "1. Ibu ingin membuat tiga loyang kue brownies. Berdasarkan resep yang ada, ibu memerlukan setengah kilogram gula pasir, 250 gram tepung terigu dan beberapa bahan yang lainnya. Jika dilakukan senilai, maka senilai antara banyaknya gula pasir dan tepung terigu yang ibu perlukan adalah",
-			"jawab1" : "5:1"
+			"soal1" : "1. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{50}{25}=\\frac{10}{y}\\] <br>Nilai (y) dari pasangan perbandingan tersebut adalah ....",
+			"jawab1" : 5
 		},
 		{
-			"soal1" : "1. Rina membeli 10 buku tulis seharga Rp20.000,00 untuk perlengkapan semester baru di sekolahnya. senilai harga dan banyaknya buku tulis yang ia beli adalah",
-			"jawab1" : "2.000:1"
+			"soal1" : "1. Di pagi hari, Nurus berdiri di samping pohon mangga di rumahnya. Ia penasaran dengan tinggi pohon tersebut. Jika dilakukan pendataan berdasarkan fakta yang diketahui, tinggi Nurus yaitu 150 cm dan panjang bayangannya yaitu 50 cm, sedangkan panjang bayangan pohonnya yaitu 200 cm. Jadi, tinggi pohon mangga di rumah Nurus adalah ... cm",
+			"jawab1" : 600
 		},
 		{
-			"soal1" : "1. Vebri membeli roti 12 buah seharga Rp54.000,00. senilai antara harga dan jumlah roti yang ia beli adalah",
-			"jawab1" : "4.500:1"
+			"soal1" : "1. Endang menerima pesanan gelang sebanyak 50 buah. Dalam membuat 5 gelang, Endang membutuhkan waktu 2 hari untuk menyelesaikannya. Jadi, waktu yang dibutuhkan Endang agar pesanan gelang tersebut selesai adalah ... hari.",
+			"jawab1" : 20
 		}					
 	],
 
 	"senilai2":[
 		{
-			"soal2" : "2. Diketahui dua pasang perbandingan, yaitu  x/10 =  2/5. Nilai (x) dari pasangan perbandingan tersebut adalah",
-			"jawab2" : "4"
+			"soal2" : "2. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{x}{10}=\\frac{2}{5}\\] <br>Nilai (x) dari pasangan perbandingan tersebut adalah ....",
+			"jawab2" : 4
 		},
 		{
-			"soal2" : "2. Lian pergi ke pasar membeli minyak goreng untuk kebutuhan di rumahnya selama dua bulan. Tiap satu bulan, ia menghabiskan satu kemasan minyak goreng ukuran 1 liter dan satu kemasan minyak goreng ukuran 500 ml. Jika dua bulan, ia menghabiskan tiga kemasan minyak goreng yang berukuran 1 liter. senilai antara minyak goreng untuk satu bulan dan minyak goreng untuk dua bulan adalah",
-			"jawab2" : "1:2"
+			"soal2" : "2. Mumu ingin mencetak poster untuk kegiatan di sekolahnya. Mumu menggunakan ukuran dengan panjang 400 pixel dan lebar 500 pixel. Setelah dicetak ternyata kualitas gambar posternya tidak baik. Lalu ia berencana untuk mengubah ukuran panjangnya menjadi 4.000 pixel. Agar ukurannya tetap proporsional, maka lebarnya adalah ... pixel.",
+			"jawab2" : [5000, "5.000"]
 		},
 		{
-			"soal2" : "2. Aline sangat menyukai kopi. Ia berencana akan membeli 5.000 gram kopi arabika gayo aceh dan 10 kg kopi arabika toraja. senilai antara berat kopi arabika gayo aceh dengan kopi arabika toraja adalah",
-			"jawab2" : "2:1"
+			"soal2" : "2. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{8}{x}=\\frac{16}{20}\\] <br>Nilai (x) dari pasangan perbandingan tersebut adalah ....",
+			"jawab2" : 10
 		},
 		{
-			"soal2" : "2. Kelompok tani di Pakatellu masing-masing memperoleh 140 kg bibit beras unus mutiara dan 180.000 gram beras siam. senilai antara berat beras unus mutiara dan beras siam adalah",
-			"jawab2" : "7:9"
+			"soal2" : "2. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{12}{20}=\\frac{y}{50}\\] <br>Nilai (y) dari pasangan perbandingan tersebut adalah ....",
+			"jawab2" : 30
 		}		
 	],
 
 	"senilai3":[
 		{
-			"soal3" : "3. Mahdi berkendara sejauh 75 km dengan waktu tempuh 1 jam 30 menit. Jika ia berkendara selama 30 menit, maka jarak yang ia tempuh yaitu sejauh",
-			"jawab3" : "25"
+			"soal3" : "3. Mahdi berkendara sejauh 75 km dengan waktu tempuh 1 jam 30 menit. Jika ia berkendara selama 30 menit, maka jarak yang ia tempuh yaitu sejauh ... km.",
+			"jawab3" : 25
 		},
 		{
-			"soal3" : "3. Jarak antara gang tempat tinggal Pahya dan gang tempat tinggal Rahma adalah 130 meter, sedangkan jarak antara gang Pahya dan Maria adalah 5.000 cm. senilai antara jarak gang Pahya menuju gang Rahma dan Maria dalam satuan meter adalah",
-			"jawab3" : "13:5"
+			"soal3" : "3. Novi berjalan kaki dari pantai Pagatan ke lapangan Tujuh Februari dengan jarak 240 meter dan menghabiskan waktu selama 8 menit. Jika ia melanjutkan perjalanan sejauh 720 meter dengan kecepatan yang sama, maka waktu yang ia perlukan untuk sampai ke tujuan adalah ... menit.",
+			"jawab3" : 24
 		},
 		{
-			"soal3" : "3. Tia dan Elfa ingin membuat jus anggur untuk dibagikan ke teman-temannya. Mereka memerlukan 4 kilogram anggur yang didapatkan dengan harga Rp160.000,00. senilai antara harga dan jumlah anggur yang mereka perlukan adalah",
-			"jawab3" : "40.000:1"
+			"soal3" : "3. Afsar menempuh perjalanan dari Banjarmasin ke Banjarbaru dengan jarak 33 km selama 50 menit. Waktu tempuh jika Afsar berkendara sejauh 165 km adalah ... menit.",
+			"jawab3" : 250
 		},
 		{
-			"soal3" : "3. Umi membeli 12 bungkus minuman jeruk sachet seharga Rp18.000,00. senilai antara harga dan jumlah minuman jeruk adalah",
-			"jawab3" : "1.500:1"
+			"soal3" : "3. Seorang pedagang pakaian, mampu menjual 15 lembar seragam sekolah dengan harga Rp795.000,00. Jika pada hari berikutnya ia mampu menjual sebanyak 3 lusin seragam sekolah, maka hasil penjualan yang akan ia peroleh adalah Rp ....",
+			"jawab3" : [1908000, "1.908.000", "1.908.000,00"]
 		}		
 	],
 
 	"senilai4":[
 		{
-			"soal4" : "4. Pak Hamsar adalah seorang pengusaha telur. Setiap hari, akan ada 5 rak telur yang terjual habis. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.",
-			"jawab4" : [5, 10, 15, 20, 25, 30, 35]
+			"soal4" : "4. Pak Hamsar adalah seorang pengusaha telur. Setiap hari, akan ada 5 rak telur yang terjual habis. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Hari</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Banyaknya Telur yang akan Terjual</th> <td>5</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2, 3, 4, 5, 6</mark>",
+			"jawab4" : "10, 15, 20, 25, 30, 35"
 		},
 		{
-			"soal4" : "4. Uci berkendara melewati jalan A dengan jarak 5 km dan waktu tempuhnya adalah 25 menit. senilai antara jarak dan waktu yang ditempuh Uci dalam berkendara adalah",
-			"jawab4" : "1:5"
+			"soal4" : "4. Ibu Maryam mempunyai 100 bebek petelur di rumahnya dan setiap bulannya ia memerlukan pakan dedak sebanyak 360 kg. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Bebek</th> <td>50</td> <td>100</td> <td>150</td> <td>200</td> <td>250</td> <td>300</td> <td>350</td> </tr> <tr> <th>Banyaknya Pakan Dadak (Kg)</th> <td>....</td> <td>360</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2, 3, 4, 5, 6</mark>",
+			"jawab4" : ["180, 540, 720, 900, 1080, 1260", "180, 540, 720, 900, 1.080, 1.260"]
 		},
 		{
-			"soal4" : "4. Pak Fatih membeli 10 liter solar dan 5.000 ml bensin. senilai antara banyaknya solar dan bensin adalah",
-			"jawab4" : "2:1"
+			"soal4" : "4. Dhila mempunyai 3 pulpen seharga Rp.7.500,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Pulpen</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Pulpen</th> <td>....</td> <td>....</td> <td>7.500</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2, 3, 4, 5, 6</mark>",
+			"jawab4" : ["2500, 5000, 10000, 12500, 15000, 17500", "2.500, 5.000, 10.000, 12.500, 15.000, 17.500"]
 		},
 		{
-			"soal4" : "4. Selama dua hari ini Yulia melakukan latihan bulu tangkis. Pada hari pertama, ia menghabiskan waktu selama 2 jam untuk latihan dan di hari kedua Yulia menghabiskan waktu 180 menit. senilai waktu yang dihabiskan Yulia pada hari pertama dan hari kedua dalam bentuk yang paling sederhana adalah",
-			"jawab4" : "2:3"
+			"soal4" : "4. Gina membeli kue putu ayu sebanyak 2 buah dengan harga Rp3.000,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Kue Putu Ayu</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Kue Putu Ayu</th> <td>....</td> <td>3.000</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2, 3, 4, 5, 6</mark>",
+			"jawab4" : ["1500, 4500, 6000, 7500, 9000, 10500", "1.500, 4.500, 6.000, 7.500, 9.000, 10.500"]
 		}		
 	],
 
 	"senilai5":[
 		{
-			"soal5" : "5. Rahel ingin memasak mie instan. Berdasarkan petunjuk, untuk merebus mie instan diperlukan air sebanyak 440 ml dan durasi waktu selama 4 menit. senilai antara volume air dan waktu dalam merebus mie instan adalah",
-			"jawab5" : "110:1"
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, lengkapilah tabelnya, lalu gambarlah grafik perbandingan senilainya.<br><br><table class='tabel_mendatar'> <tr> <th>Volume Air Mineral (Liter)</th> <td>1,5</td> <td>3</td> <td>4,5</td> </tr> <tr> <th>Harga Air Mineral</th> <td>5.000</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2</mark>",
+			"jawab5" : ["10000, 15000", "10.000, 15.000"]
 		},
 		{
-			"soal5" : "5. Kak Karin bersekolah di salah satu SMK swasta. Jika dihitung pertahun, maka ia harus mengeluarkan biaya SPP sebanyak Rp3.000.000,00. Jika kakak membayar SPP per bulan, maka uang yang harus dikeluarkan yaitu sebanyak",
-			"jawab5" : ["250.000", "250.000,00"]
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, lengkapilah tabelnya, lalu gambarlah grafik perbandingan senilainya.<br><br><table class='tabel_mendatar'> <tr> <th>Banyak Ikan Papuyu (Kg)</th> <td>1</td> <td>2</td> <td>3</td> </tr> <tr> <th>Harga Ikan Papuyu</th> <td>96.000</td> <td>....</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2</mark>",
+			"jawab5" : ["192000, 288000", "192.000, 288.000"]
 		},
 		{
-			"soal5" : "5. Dalam setahun ini Mira mengikuti dua kelas kursus sekaligus. Kelas kursus pertama adalah Bahasa Inggris dengan masa tempuh dari bulan Januari hingga di bulan April. Lalu, pada bulan Agustus hingga bulan selanjutnya, yang terhitung selama 150 hari, ia mengikuti kelas kursus matematika. senilai antara jumlah hari pada kelas pertama dengan kelas kedua yang diikuti Mira adalah",
-			"jawab5" : "4:5"
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, lengkapilah tabelnya, lalu gambarlah grafik perbandingan senilainya.<br><br><table class='tabel_mendatar'> <tr> <th>Jarak/Km</th> <td>7</td> <td>140</td> <td>280</td> </tr> <tr> <th>Waktu/Jam</th> <td>....</td> <td>4</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2</mark>",
+			"jawab5" : "2, 8"
 		},
 		{
-			"soal5" : "5. Bapak Nanda memelihara ikan cupang dan ikan mas koki. Di rumahnya ia memiliki dua akuarium yang berbeda. Akuarium untuk ikan cupang diisi dengan 20.000 ml air, sedangkan akuarium untuk ikan mas koki diisi dengan 38 liter air. senilai antara volume air pada akuarium ikan mas koki dengan volume air di akuarium ikan cupang adalah",
-			"jawab5" : "19:10"
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, lengkapilah tabelnya, lalu gambarlah grafik perbandingan senilainya.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Pertamax (Liter)</th> <td>4</td> <td>8</td> <td>12</td> </tr> <tr> <th>Jarak yang ditempuh (Km)</th> <td>....</td> <td>432</td> <td>....</td> </tr> </table><br><br> <mark>Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh : 1, 2</mark>",
+			"jawab5" : "216, 432, 648"
 		}		
 	]		
 }

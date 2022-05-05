@@ -1,95 +1,95 @@
 {
 	"duabesaran1":[
 		{
-			"soal1" : "1. Sebuah mesin fotokopi membutuhkan waktu 120 detik untuk mencetak 10 kertas, sedangkan mesin printer membutuhkan waktu 4 menit untuk mencetak 10 kertas. Perbandingan antara waktu yang diperlukan mesin printer dan mesin fotokopi dalam satuan detik adalah",
+			"soal1" : "1. Sebuah mesin fotokopi membutuhkan waktu 120 detik untuk mencetak 10 kertas, sedangkan mesin printer membutuhkan waktu 4 menit untuk mencetak 10 kertas. Perbandingan antara waktu yang diperlukan mesin printer dan mesin fotokopi dalam satuan detik adalah ....",
 			"jawab1" : "2:1"
 		},
 		{
-			"soal1" : "1. Ibu ingin membuat tiga loyang kue brownies. Berdasarkan resep yang ada, ibu memerlukan setengah kilogram gula pasir, 250 gram tepung terigu dan beberapa bahan yang lainnya. Jika dilakukan perbandingan, maka perbandingan antara banyaknya gula pasir dan tepung terigu yang ibu perlukan adalah",
+			"soal1" : "1. Ibu ingin membuat tiga loyang kue brownies. Berdasarkan resep yang ada, ibu memerlukan setengah kilogram gula pasir, 250 gram tepung terigu dan beberapa bahan yang lainnya. Jika dilakukan perbandingan, maka perbandingan antara banyaknya gula pasir dan tepung terigu yang ibu perlukan adalah ....",
 			"jawab1" : "5:1"
 		},
 		{
-			"soal1" : "1. Rina membeli 10 buku tulis seharga Rp20.000,00 untuk perlengkapan semester baru di sekolahnya. Perbandingan harga dan banyaknya buku tulis yang ia beli adalah",
-			"jawab1" : "2.000:1"
+			"soal1" : "1. Rina membeli 10 buku tulis seharga Rp20.000,00 untuk perlengkapan semester baru di sekolahnya. Perbandingan harga dan banyaknya buku tulis yang ia beli adalah ....",
+			"jawab1" : ["2000:1", "2.000:1"]
 		},
 		{
-			"soal1" : "1. Vebri membeli roti 12 buah seharga Rp54.000,00. Perbandingan antara harga dan jumlah roti yang ia beli adalah",
-			"jawab1" : "4.500:1"
+			"soal1" : "1. Vebri membeli roti 12 buah seharga Rp54.000,00. Perbandingan antara harga dan jumlah roti yang ia beli adalah ....",
+			"jawab1" : ["4500:1", "4.500:1"]
 		}					
 	],
 
 	"duabesaran2":[
 		{
-			"soal2" : "2. Tia bekerja di salah satu toko buku sebagai kasir. Per bulannya, ia menerima gaji sebanyak Rp2.000.000,00. Jika dalam sebulan Tia mempunyai waktu libur 5 hari, maka gaji per hari yang Tia peroleh adalah",
-			"jawab2" : ["80.000", "80.000,00"]
+			"soal2" : "2. Tia bekerja di salah satu toko buku sebagai kasir. Per bulannya, ia menerima gaji sebanyak Rp2.000.000,00. Jika dalam sebulan Tia mempunyai waktu libur 5 hari, maka gaji per hari yang Tia peroleh adalah ....",
+			"jawab2" : [80000, "80.000", "80.000,00"]
 		},
 		{
-			"soal2" : "2. Lian pergi ke pasar membeli minyak goreng untuk kebutuhan di rumahnya selama dua bulan. Tiap satu bulan, ia menghabiskan satu kemasan minyak goreng ukuran 1 liter dan satu kemasan minyak goreng ukuran 500 ml. Jika dua bulan, ia menghabiskan tiga kemasan minyak goreng yang berukuran 1 liter. Perbandingan antara minyak goreng untuk satu bulan dan minyak goreng untuk dua bulan adalah",
+			"soal2" : "2. Lian pergi ke pasar membeli minyak goreng untuk kebutuhan di rumahnya selama dua bulan. Tiap satu bulan, ia menghabiskan satu kemasan minyak goreng ukuran 1 liter dan satu kemasan minyak goreng ukuran 500 ml. Jika dua bulan, ia menghabiskan tiga kemasan minyak goreng yang berukuran 1 liter. Perbandingan antara minyak goreng untuk satu bulan dan minyak goreng untuk dua bulan adalah ....",
 			"jawab2" : "1:2"
 		},
 		{
-			"soal2" : "2. Aline sangat menyukai kopi. Ia berencana akan membeli 5.000 gram kopi arabika gayo aceh dan 10 kg kopi arabika toraja. Perbandingan antara berat kopi arabika gayo aceh dengan kopi arabika toraja adalah",
+			"soal2" : "2. Aline sangat menyukai kopi. Ia berencana akan membeli 5.000 gram kopi arabika gayo aceh dan 10 kg kopi arabika toraja. Perbandingan antara berat kopi arabika gayo aceh dengan kopi arabika toraja adalah ....",
 			"jawab2" : "2:1"
 		},
 		{
-			"soal2" : "2. Kelompok tani di Pakatellu masing-masing memperoleh 140 kg bibit beras unus mutiara dan 180.000 gram beras siam. Perbandingan antara berat beras unus mutiara dan beras siam adalah",
+			"soal2" : "2. Kelompok tani di Pakatellu masing-masing memperoleh 140 kg bibit beras unus mutiara dan 180.000 gram beras siam. Perbandingan antara berat beras unus mutiara dan beras siam adalah ....",
 			"jawab2" : "7:9"
 		}		
 	],
 
 	"duabesaran3":[
 		{
-			"soal3" : "3. Iril melakukan olahraga lari di tiap minggunya. Pada minggu pertama, ia berlari sejauh 200 meter, sedangkan di minggu kedua ia berlari sejauh 24.000 cm. Perbandingan jarak (dalam satuan meter) lari antara minggu kedua dengan minggu pertama adalah",
+			"soal3" : "3. Iril melakukan olahraga lari di tiap minggunya. Pada minggu pertama, ia berlari sejauh 200 meter, sedangkan di minggu kedua ia berlari sejauh 24.000 cm. Perbandingan jarak (dalam satuan meter) lari antara minggu kedua dengan minggu pertama adalah ....",
 			"jawab3" : "6:5"
 		},
 		{
-			"soal3" : "3. Jarak antara gang tempat tinggal Pahya dan gang tempat tinggal Rahma adalah 130 meter, sedangkan jarak antara gang Pahya dan Maria adalah 5.000 cm. Perbandingan antara jarak gang Pahya menuju gang Rahma dan Maria dalam satuan meter adalah",
+			"soal3" : "3. Jarak antara gang tempat tinggal Pahya dan gang tempat tinggal Rahma adalah 130 meter, sedangkan jarak antara gang Pahya dan Maria adalah .... 5.000 cm. Perbandingan antara jarak gang Pahya menuju gang Rahma dan Maria dalam satuan meter adalah ....",
 			"jawab3" : "13:5"
 		},
 		{
-			"soal3" : "3. Tia dan Elfa ingin membuat jus anggur untuk dibagikan ke teman-temannya. Mereka memerlukan 4 kilogram anggur yang didapatkan dengan harga Rp160.000,00. Perbandingan antara harga dan jumlah anggur yang mereka perlukan adalah",
-			"jawab3" : "40.000:1"
+			"soal3" : "3. Tia dan Elfa ingin membuat jus anggur untuk dibagikan ke teman-temannya. Mereka memerlukan 4 kilogram anggur yang didapatkan dengan harga Rp160.000,00. Perbandingan antara harga dan jumlah anggur yang mereka perlukan adalah ....",
+			"jawab3" : ["40000:1", "40.000:1"]
 		},
 		{
-			"soal3" : "3. Umi membeli 12 bungkus minuman jeruk sachet seharga Rp18.000,00. Perbandingan antara harga dan jumlah minuman jeruk adalah",
-			"jawab3" : "1.500:1"
+			"soal3" : "3. Umi membeli 12 bungkus minuman jeruk sachet seharga Rp18.000,00. Perbandingan antara harga dan jumlah minuman jeruk adalah ....",
+			"jawab3" : ["1500:1", "1.500:1"]
 		}		
 	],
 
 	"duabesaran4":[
 		{
-			"soal4" : "4. Suhu di Banjarmasin berada pada 28℃ dalam 12 jam terakhir. Jadi, perbandingan antara suhu dan waktu di Banjarmasin adalah",
+			"soal4" : "4. Suhu di Banjarmasin berada pada 28℃ dalam 12 jam terakhir. Jadi, perbandingan antara suhu dan waktu di Banjarmasin adalah ....",
 			"jawab4" : "7:3"
 		},
 		{
-			"soal4" : "4. Uci berkendara melewati jalan A dengan jarak 5 km dan waktu tempuhnya adalah 25 menit. Perbandingan antara jarak dan waktu yang ditempuh Uci dalam berkendara adalah",
+			"soal4" : "4. Uci berkendara melewati jalan A dengan jarak 5 km dan waktu tempuhnya adalah 25 menit. Perbandingan antara jarak dan waktu yang ditempuh Uci dalam berkendara adalah ....",
 			"jawab4" : "1:5"
 		},
 		{
-			"soal4" : "4. Pak Fatih membeli 10 liter solar dan 5.000 ml bensin. Perbandingan antara banyaknya solar dan bensin adalah",
+			"soal4" : "4. Pak Fatih membeli 10 liter solar dan 5.000 ml bensin. Perbandingan antara banyaknya solar dan bensin adalah ....",
 			"jawab4" : "2:1"
 		},
 		{
-			"soal4" : "4. Selama dua hari ini Yulia melakukan latihan bulu tangkis. Pada hari pertama, ia menghabiskan waktu selama 2 jam untuk latihan dan di hari kedua Yulia menghabiskan waktu 180 menit. Perbandingan waktu yang dihabiskan Yulia pada hari pertama dan hari kedua dalam bentuk yang paling sederhana adalah",
+			"soal4" : "4. Selama dua hari ini Yulia melakukan latihan bulu tangkis. Pada hari pertama, ia menghabiskan waktu selama 2 jam untuk latihan dan di hari kedua Yulia menghabiskan waktu 180 menit. Perbandingan waktu yang dihabiskan Yulia pada hari pertama dan hari kedua dalam bentuk yang paling sederhana adalah ....",
 			"jawab4" : "2:3"
 		}		
 	],
 
 	"duabesaran5":[
 		{
-			"soal5" : "5. Rahel ingin memasak mie instan. Berdasarkan petunjuk, untuk merebus mie instan diperlukan air sebanyak 440 ml dan durasi waktu selama 4 menit. Perbandingan antara volume air dan waktu dalam merebus mie instan adalah",
+			"soal5" : "5. Rahel ingin memasak mie instan. Berdasarkan petunjuk, untuk merebus mie instan diperlukan air sebanyak 440 ml dan durasi waktu selama 4 menit. Perbandingan antara volume air dan waktu dalam merebus mie instan adalah ....",
 			"jawab5" : "110:1"
 		},
 		{
 			"soal5" : "5. Kak Karin bersekolah di salah satu SMK swasta. Jika dihitung pertahun, maka ia harus mengeluarkan biaya SPP sebanyak Rp3.000.000,00. Jika kakak membayar SPP per bulan, maka uang yang harus dikeluarkan yaitu sebanyak",
-			"jawab5" : ["250.000", "250.000,00"]
+			"jawab5" : [250000, "250.000", "250.000,00"]
 		},
 		{
-			"soal5" : "5. Dalam setahun ini Mira mengikuti dua kelas kursus sekaligus. Kelas kursus pertama adalah Bahasa Inggris dengan masa tempuh dari bulan Januari hingga di bulan April. Lalu, pada bulan Agustus hingga bulan selanjutnya, yang terhitung selama 150 hari, ia mengikuti kelas kursus matematika. Perbandingan antara jumlah hari pada kelas pertama dengan kelas kedua yang diikuti Mira adalah",
+			"soal5" : "5. Dalam setahun ini Mira mengikuti dua kelas kursus sekaligus. Kelas kursus pertama adalah .... Bahasa Inggris dengan masa tempuh dari bulan Januari hingga di bulan April. Lalu, pada bulan Agustus hingga bulan selanjutnya, yang terhitung selama 150 hari, ia mengikuti kelas kursus matematika. Perbandingan antara jumlah hari pada kelas pertama dengan kelas kedua yang diikuti Mira adalah ....",
 			"jawab5" : "4:5"
 		},
 		{
-			"soal5" : "5. Bapak Nanda memelihara ikan cupang dan ikan mas koki. Di rumahnya ia memiliki dua akuarium yang berbeda. Akuarium untuk ikan cupang diisi dengan 20.000 ml air, sedangkan akuarium untuk ikan mas koki diisi dengan 38 liter air. Perbandingan antara volume air pada akuarium ikan mas koki dengan volume air di akuarium ikan cupang adalah",
+			"soal5" : "5. Bapak Nanda memelihara ikan cupang dan ikan mas koki. Di rumahnya ia memiliki dua akuarium yang berbeda. Akuarium untuk ikan cupang diisi dengan 20.000 ml air, sedangkan akuarium untuk ikan mas koki diisi dengan 38 liter air. Perbandingan antara volume air pada akuarium ikan mas koki dengan volume air di akuarium ikan cupang adalah ....",
 			"jawab5" : "19:10"
 		}		
 	]		

@@ -163,6 +163,7 @@ html, body{
 
 mark{
   background-color: #FFD9D6;
+  padding: 0% 1% 0% 1%;
 }
 
 /*==================== ***LATIHAN*** ====================*/
@@ -302,18 +303,38 @@ mark{
   color: #262626;  
 }
 
-/*==================== ***TABEL*** ====================*/
-table{
+/*==================== ***TABEL BACA, YUK*** ====================*/
+.tabel_menurun {
   margin: 0 auto;
   text-align: center;
+  width: 80%;
 }
 
-th{
+.tabel_menurun th{
   background-color: #CBDBF6;
   border:  1px solid #262626;
   padding: 3%;  
 }
 
-td{
+.tabel_menurun td{
+  background-color: #FBF2ED; 
   border: 1px solid #262626;
+  padding: 3%;   
+}
+
+/*==================== ***TABEL COBA, YUK*** ====================*/
+.tabel_mendatar{
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;  
+}
+
+.tabel_mendatar th{
+  background-color: #CBDBF6;
+  border: 1px solid #262626;
+}
+
+.tabel_mendatar td{
+  background-color: #FBF2ED;   
+  border: 1px solid #262626;  
 }
