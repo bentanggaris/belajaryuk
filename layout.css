@@ -191,60 +191,201 @@ h4{
   border: 0;
 }
 
-.boxisisoal,.boxtombol{
+.boxisisoal{
   width: 100%;
   height: 100%;
   background: none;
-  border: 0;  
+  border: 0;
 }
 
-.labelevaluasi{
+.boxtombol{
+  height: 100%;
+  background: none;
+  width: auto;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.headerevaluasi{
   color: #282828;
   font-family: Poppins, Verdana, sans-serif;
-  background-color: #FF9F98;
+  background-color: #FFBCB7;
   border: 3px #282828 solid;
   border-radius: 10px;
   text-align: center;
-  padding: 1%;
-  width: 100%; 
+  padding: 1% 3% 1% 3%;
+  width: 100%;
+  z-index: 1;  
 }
 
-.isievaluasi{
+.isisoalevaluasi{
+  position: relative;
   color: #282828;
-  font-family: Source Sans Pro;
+  font-family: Poppins, Verdana, sans-serif;
   background-color: #FBF2ED;
   border: 3px solid #282828;
   border-radius: 0;
-  text-align: justify;
-  padding: 3%;
-  margin-top: -8px; 
-  width: 100%;
-  height: 350px;
+  margin-top: -8px;
+  width: auto;
+  height: 320px;
   overflow: auto;
+  z-index: 2;  
 }
 
-.soalselanjutnya, .kembalimateri{
+.tabel_menurun {
+  text-align: center;
+  width: auto;
+}
+
+.tabel_menurun th{
+  background-color: #CBDBF6;
+  border:  1px solid #262626;
+  padding: 5%;  
+}
+
+.tabel_menurun td{
+  background-color: #FBF2ED; 
+  border: 1px solid #262626;  
+}
+
+.tabel_mendatar{
+  text-align: center;
+  width: auto;
+}
+
+.tabel_mendatar th{
+  background-color: #CBDBF6;
+  border: 1px solid #262626;
+}
+
+.tabel_mendatar td{
+  background-color: #FBF2ED;   
+  border: 1px solid #262626;  
+}
+
+.footerevaluasi{
+  color: #282828;
+  font-family: Poppins, Verdana, sans-serif;
+  background-color: #FFBCB7;
+  border: 3px #282828 solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1% 3% 1% 3%;
+  margin-top: -8px;   
+  width: 100%; 
+  z-index: 1;
+}
+
+.boxsoalnya{
+  padding: 3%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+.soal{
+    margin-bottom: 1%;
+}
+
+.jawaban {
+    margin-bottom: 1%;  
+    text-align: left;
+    display: inline-block;
+}
+
+.jawaban label{
+    display: block;
+    margin-bottom: 1%;
+}
+
+.nomor_soal{
+  background-color: #FFBCB7;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  color: #262626;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  width: 45px; 
+}
+
+.nomor_soal:hover{
+  background-color: #FF938B;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  color: #262626; 
+}
+
+.nomor_terjawab{
+    background-color: #FBF2ED;
+    color: #262626;
+}
+
+.soalselanjutnya{
   background-color: #97B6EC;
   border: 1px solid #282828;
   border-radius: 5px;
   color: #262626;
-  margin: 2% 0% 2% 0%;
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 200px;
+  width: 150px;
   font-family: Poppins, Verdana, sans-serif;
 }
 
-.soalselanjutnya:hover, .kembalimateri:hover{
-  background-color: #FBF2ED;
+.soalselanjutnya:hover{
+  background-color: #769FE6;
+  border: 1px solid #282828;
+}
+
+.kembali{
+  background-color: #D8D8D8;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  color: #262626;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.kembali:hover{
+  background-color: #C2C2C2;
+  border: 1px solid #282828;
+}
+
+.selesai{
+  background-color: #97B6EC;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  color: #262626;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.selesai:hover{
+  background-color: #769FE6;
   border: 1px solid #282828;
 }
 
 /*==================== ***NILAI EVALUASI*** ====================*/
 .boxisihasil, .boxtombolkembali{
   margin: 0 auto;
-  width: 500px;
+  width: 100%;
+  height: auto;
   background: none;
   border: 0;  
 }
@@ -257,20 +398,41 @@ h4{
   border-radius: 10px;
   text-align: center;
   padding: 1%;
-  width: 100%; 
 }
 
 .hasilevaluasi{
   color: #282828;
-  font-family: Source Sans Pro;
+  font-family: Poppins, Verdana, sans-serif;
   background-color: #FBF2ED;
   border: 3px solid #282828;
   border-radius: 0;
-  text-align: justify;
+  text-align: center;
   line-height: 27px;  
   padding: 3%;
-  margin-top: -8px; 
-  width: 100%;
+  margin-top: -8px;
+  margin-bottom: 2%;
+}
+
+.hasilnya{
+  
+}
+
+.kembalimateri{
+  background-color: #97B6EC;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  color: #262626;
+  margin: 0 auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.kembalimateri:hover{
+  background-color: #FBF2ED;
+  border: 1px solid #282828;
 }
 
 /*==================== ***SIDEBAR*** ====================*/

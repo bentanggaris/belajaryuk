@@ -307,7 +307,7 @@ mark{
 .tabel_menurun {
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: auto;
 }
 
 .tabel_menurun th{
@@ -326,7 +326,7 @@ mark{
 .tabel_mendatar{
   margin: 0 auto;
   text-align: center;
-  width: 80%;  
+  width: auto;  
 }
 
 .tabel_mendatar th{

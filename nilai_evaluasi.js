@@ -82,24 +82,29 @@ function clearResults() {
 
 }
 
-function newResults(nameUser, klsUser, scoreUser, noteUser) {
+function resultsHistory(testNumber, nameUser, klsUser, scoreUser, noteUser) {
+    let hasilnya = document.querySelector("#hasilnya")
 
-    let hasilnya = document.querySelector("#hasilnya")   
-
-    let p = document.createElement('p')
+    let tr = document.createElement('tr')
     let html = `
-        <p>Hai, ${nameUser}! Dari kelas ${klsUser}.<br>Nilai kamu <b>${scoreUser}</b>.<br>${noteUser}.
+        <td>${testNumber}</td>
+        <td>${nameUser}</td>
+        <td>${klsUser}</td>
+        <td>${scoreUser}</td>
+        <td>${noteUser}</td>
     `
-    p.innerHTML = html
-    hasilnya.appendChild(p)
-   
+    tr.innerHTML = html
+    hasilnya.appendChild(tr)
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    let quizMastereva = quizResults["results"].length
+    let testNumber = 1
 
-    if(result.nameUser != ""){
-        newResults(quizResults["results"][quizMastereva-1].nameUser, quizResults["results"][quizMastereva-1].klsUser, quizResults["results"][quizMastereva-1].scoreUser, quizResults["results"][quizMastereva-1].noteUser)
+    for(let i=0; i<quizMastereva; i++) {
+        if(quizResults["results"][i].correctAnswer != "" && quizResults["results"][i].wrongAnswer != "") {
+            resultsHistory(testNumber, quizResults["results"][i].nameUser, quizResults["results"][i].klsUser, quizResults["results"][i].correctAnswer, quizResults["results"][i].wrongAnswer, quizResults["results"][i].scoreUser, quizResults["results"][i].noteUser)
+        }
+        testNumber++
     }
 
     let nextSection = document.querySelector("#backto")

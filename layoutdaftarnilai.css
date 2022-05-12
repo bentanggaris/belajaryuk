@@ -10,7 +10,6 @@ html, body{
 .sidebar{
   font-family: Poppins, Verdana, sans-serif;
   background-color: #FFFFFF;
-  width: 100%;
   height: 100%;
   font-size: 1rem;
 }
@@ -28,7 +27,6 @@ html, body{
   color: #262626;
   text-align: justify;
   display: block;
-  width: 100%;
   margin: 3% 0% 0% 0%; 
 }
 

@@ -7,15 +7,31 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="layout.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">	
+		<link rel="stylesheet" type="text/css" href="layout.css">
 		<link rel="icon" href="img/logoby2.svg"/>
 
-		<!--Mathjax-->
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config({text2jax: {inlineMath: [['$', '$'], ['\\(','\\)']]}});
+		<!-- Font Awesome -->	
+		<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">	
+
+		<!-- Mathjax -->
+		<script>
+		MathJax = {
+		  tex: {
+		    inlineMath: [['$', '$'], ['\\(', '\\)']]
+		  }
+		};
 		</script>
+
+		<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+
 		<script type="text/javascript" async src="assets/MathJax-2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 		</script>
+
+	    <!-- CDN jquery (with ajax) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>		
 
 		<title>Soal Evaluasi Perbandingan</title>
 	</head>
@@ -27,7 +43,7 @@
 		<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar fixed-top" style="background-color: #97B6EC;">
-				<a href="menu.html"><img src="img/back.svg" class="img-fluid navicon"></a>
+				<a href="evaluasi.html"><img src="img/back.svg" class="img-fluid navicon"></a>
 				<h4>EVALUASI</h4>
 				<a href="index.html"><img src="img/home.svg" class="img-fluid navicon"></a>				
 			</nav>
@@ -37,45 +53,34 @@
 		<!-- Isi Soal Evaluasi -->
 		<div class="container-fluid">			
 		<div class="row boxevaluasi">
-
+			<!--Box Soal-->
 			<div class="card boxisisoal">
-				<div class="labelevaluasi">
-					<b>Soal Evaluasi Perbandingan</b>
+				<!--Header Soal-->				
+				<div class="headerevaluasi">
+					<div style="float: left;"><b>Soal Evaluasi Perbandingan</b></div>
+					<div style="float: right;"><b>Sisa Waktu : </b><span id="waktu">00:00</span></div>
 				</div>
-				<div class="isievaluasi">
-					<!--keterangan nomor soal-->
-					<p><b>Soal 1 dari 20</b></p>
-					<hr color=#262626;>
-				
-					<!--soal-->
+
+				<!--Isi Soal-->				
+				<div class="isisoalevaluasi">
 					<div id="soaltampil"></div>
-					<div>
-						<p><input type="radio" id="a" name="pilihan">
-						<span id="pil1"></span></p>
-					</div>
-					<div>
-						<p><input type="radio" id="b" name="pilihan">
-						<span id="pil2"></span></p>
-					</div>	
-					<div>
-						<p><input type="radio" id="c" name="pilihan">
-						<span id="pil3"></span></p>
-					</div>
-					<div>
-						<p><input type="radio" id="d" name="pilihan">
-						<span id="pil4"></span></p>
-					</div>
 				</div>
+
+				<!--Footer Soal-->
+				<div class="footerevaluasi">
+					<div class="nomor"></div>
+				</div>				
 			</div>
 
-			<!--tombol lanjutan-->
+			<!--Box Tombol-->
 			<div class="boxtombol">
-				<button class="btn soalselanjutnya" onclick="cekHasil()"> Soal Selanjutnya&nbsp;&nbsp;&nbsp;&#8594;</button>
+				<button class="btn kembali" id="back"><i class="fas fa-arrow-left"></i> Kembali</button>
+				<button class="btn soalselanjutnya" id="next">Selanjutnya <i class="fas fa-arrow-right"></i></button>
+				<button class="btn selesai" id="done">Selesai</button>
 			</div>
 
 		</div>
 		</div>
-
 
 	<!-- JQuery -->
     <script src="assets/jquery-3.3.1.min.js"></script>
@@ -84,7 +89,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
     
     <!-- Javascript --> 
-    <script src="database_soal.js"></script>
-    <script src="soal_evaluasi_fix.js"></script>
+    <script src="soal_evaluasidb.js"></script>  
+    <script src="soal_evaluasi.js"></script>
 	</body>
 </html>

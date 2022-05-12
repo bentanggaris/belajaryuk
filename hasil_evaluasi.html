@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css"> 
+        <link rel="stylesheet" type="text/css" href="layout.css">        
+        <link rel="icon" href="img/logoby2.svg"/>
+
+        <!-- Font Awesome -->   
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">   
+
+        <!-- CDN jquery (with ajax) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>        
+
+        <title>Hasil Evaluasi Perbandingan</title>
+    </head>
+        
+    <!-- BATAS -->
+
+    <body>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+       
+        <!-- NAVBAR-->
+        <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar fixed-top" style="background-color: #97B6EC;">
+                <a href="evaluasi.html"><img src="img/back.svg" class="img-fluid navicon"></a>
+                <h4>EVALUASI</h4>
+                <a href="index.html"><img src="img/home.svg" class="img-fluid navicon"></a>           
+            </nav>
+        </div>
+        </div>
+
+        <!-- Isi Soal Evaluasi -->
+        <div class="container-fluid">           
+        <div class="row boxevaluasi">
+            <div class="card boxisihasil">
+                <div class="labelhasilevaluasi">
+                    <b>Hasil Evaluasi Perbandingan</b>
+                </div>
+                <div class="hasilevaluasi">
+                    <div class="hasilmu" id="hasilnya"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tombol Kembali ke Materi-->
+        <div class="row">
+            <div class="card boxtombolkembali">
+                <a href="perbandingan_video.html" class="btn kembalimateri" id="backto">Kembali ke Materi&nbsp;&nbsp;&nbsp;&#8594;</a>
+            </div>
+        </div>
+
+        </div>
+
+    <!-- JQuery -->
+    <script src="assets/jquery-3.3.1.min.js"></script>
+    
+    <!-- Bootstrap -->  
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Sisipan Javascript -->
+    <script src="hasil_evaluasi.js"></script>     
+    <!-- Firebase -->  
+
+    </body>
+</html>

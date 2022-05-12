@@ -39,7 +39,7 @@
 
 				<div class="isipetunjuk">
 					<span><p>
-					&#9679;&nbsp;&nbsp;&nbsp;Kerjakan 20 butir soal pilihan ganda di bawah ini dengan cara memilih salah satu jawaban yang menurutmu benar. Ingat! Waktu pengerjaan soal hanya <b>30 menit</b>.</br></br>
+					&#9679;&nbsp;&nbsp;&nbsp;Kerjakan 20 butir soal pilihan ganda di bawah ini dengan cara memilih salah satu jawaban yang menurutmu benar. Ingat! Waktu pengerjaan soal hanya <b>60 menit</b>.</br></br>
 
 					&#9679;&nbsp;&nbsp;&nbsp;Setelah menjawab semua pertanyaan pada soal, silakan klik tombol "Lihat Hasil" untuk melihat nilaimu.</br></br>	
 
@@ -89,15 +89,11 @@
             if(nama.value =="" || kelas.value ==""){
                 alert("Silakan isi nama terlebih dahulu!")
             }else{
-                localStorage.setItem('nama', nama.value)
-                localStorage.setItem('kelas', kelas.value)
+                sessionStorage.setItem('nama', nama.value)
+                sessionStorage.setItem('kelas', kelas.value)
                 window.location = "soal_evaluasi.html"
             }
-        })	
-
-        // console.log(nama)
-        // console.log(kelas)
-        // console.log(mulai)
+        })
     </script>
 
 	</body>
