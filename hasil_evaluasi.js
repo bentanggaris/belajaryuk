@@ -19,14 +19,13 @@ if(score >= 65) {
 score = score < 100 ? score.toFixed(2) : score
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCxpS8aXUb3h-SJ26_W3KRVQrW8kHrrMLA",
-  authDomain: "evaluasi-b8a0b.firebaseapp.com",
-  databaseURL: "https://evaluasi-b8a0b-default-rtdb.firebaseio.com",
-  projectId: "evaluasi-b8a0b",
-  storageBucket: "evaluasi-b8a0b.appspot.com",
-  messagingSenderId: "913656822730",
-  appId: "1:913656822730:web:fd2619009b3a0d9bdfed33",
-  measurementId: "G-2P3W62S5FY"
+  apiKey: "AIzaSyAsQsejibLhoUqNwMAB2VS-ZaOyyASjTHI",
+  authDomain: "belajaryuk-2e6eb.firebaseapp.com",
+  databaseURL: "https://belajaryuk-2e6eb-default-rtdb.firebaseio.com",
+  projectId: "belajaryuk-2e6eb",
+  storageBucket: "belajaryuk-2e6eb.appspot.com",
+  messagingSenderId: "584931503788",
+  appId: "1:584931503788:web:3d4e3793a4767258473909"
 };
 
 // Initialize Firebase
@@ -72,6 +71,7 @@ if(localStorage && localStorage.getItem('quizMastereva')) {
     clearResults()
 }
 
+// Hapus datanya
 function clearResults() {
     sessionStorage.setItem("nama", "");
     sessionStorage.setItem("kelas", "");
@@ -82,6 +82,23 @@ function clearResults() {
 
 }
 
+// Tampilkan histori datanya di halaman guru
+function resultsHistory(testNumber, nameUser, klsUser, scoreUser, noteUser) {
+    let hasilDetail = document.querySelector(".hasilDetail")
+
+    let tr = document.createElement('tr')
+    let html = `
+        <td>${testNumber}</td>
+        <td>${nameUser}</td>
+        <td>${klsUser}</td>
+        <td>${scoreUser}</td>
+        <td>${noteUser}</td>
+    `
+    tr.innerHTML = html
+    hasilDetail.appendChild(tr)
+}
+
+// Tampilkan data baru
 function newResults(nameUser, klsUser, scoreUser, noteUser) {
 
     let hasilnya = document.querySelector("#hasilnya")   
@@ -97,6 +114,14 @@ function newResults(nameUser, klsUser, scoreUser, noteUser) {
 
 document.addEventListener("DOMContentLoaded", function(){
     let quizMastereva = quizResults["results"].length
+    let testNumber = 1
+
+    for(let i=0; i<quizMastereva; i++) {
+        if(quizResults["results"][i].correctAnswer != "" && quizResults["results"][i].wrongAnswer != "") {
+            resultsHistory(testNumber, quizResults["results"][i].nameUser, quizResults["results"][i].klsUser, quizResults["results"][i].scoreUser, quizResults["results"][i].noteUser)
+        }
+        testNumber++
+    }    
 
     if(result.nameUser != ""){
         newResults(quizResults["results"][quizMastereva-1].nameUser, quizResults["results"][quizMastereva-1].klsUser, quizResults["results"][quizMastereva-1].scoreUser, quizResults["results"][quizMastereva-1].noteUser)

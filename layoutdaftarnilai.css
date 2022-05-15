@@ -73,17 +73,14 @@ html, body{
 }
 
 table{
-  width: 100%;
   text-align: center;
 }
 
 th{
   background-color: #97B6EC;
   border:  1px solid #282828;
-  padding: 1%;
 }
 
 td{
-  border: 1px solid #282828;
-  padding: 1%;
+  border: 1px solid #282828; 
 }

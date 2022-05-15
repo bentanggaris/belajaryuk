@@ -13,6 +13,21 @@ html, body{
 }
 
 /*==================== ***BERANDA*** ====================*/
+.guru{
+  padding: 2% 5% 0% 2%;
+  text-align: right;
+}
+
+.guru a{
+  font-family: Poppins;
+  color: #282828;
+  font-weight: normal;
+}
+
+.guru:hover a{
+  color: #5688E0;
+}
+
 .beranda{
   margin: 0% 5% 0% 5%;
 }
@@ -411,10 +426,6 @@ h4{
   padding: 3%;
   margin-top: -8px;
   margin-bottom: 2%;
-}
-
-.hasilnya{
-  
 }
 
 .kembalimateri{
