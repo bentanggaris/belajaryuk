@@ -82,6 +82,22 @@ function clearResults() {
 
 }
 
+// Tampilkan histori datanya di halaman guru
+function resultsHistory(testNumber, nameUser, klsUser, scoreUser, noteUser) {
+    let hasilDetail = document.querySelector(".hasilDetail")
+
+    let tr = document.createElement('tr')
+    let html = `
+        <td>${testNumber}</td>
+        <td>${nameUser}</td>
+        <td>${klsUser}</td>
+        <td>${scoreUser}</td>
+        <td>${noteUser}</td>
+    `
+    tr.innerHTML = html
+    hasilDetail.appendChild(tr)
+}
+
 // Tampilkan data baru
 function newResults(nameUser, klsUser, scoreUser, noteUser) {
 
@@ -97,7 +113,15 @@ function newResults(nameUser, klsUser, scoreUser, noteUser) {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    let quizMastereva = quizResults["results"].length   
+    let quizMastereva = quizResults["results"].length
+    let testNumber = 1
+
+    for(let i=0; i<quizMastereva; i++) {
+        if(quizResults["results"][i].correctAnswer != "" && quizResults["results"][i].wrongAnswer != "") {
+            resultsHistory(testNumber, quizResults["results"][i].nameUser, quizResults["results"][i].klsUser, quizResults["results"][i].scoreUser, quizResults["results"][i].noteUser)
+        }
+        testNumber++
+    }    
 
     if(result.nameUser != ""){
         newResults(quizResults["results"][quizMastereva-1].nameUser, quizResults["results"][quizMastereva-1].klsUser, quizResults["results"][quizMastereva-1].scoreUser, quizResults["results"][quizMastereva-1].noteUser)

@@ -1,0 +1,168 @@
+html, body{
+  background-color: #FCF4EC;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+/*LOGIN GURU*/
+
+/*.bg_login{
+  background-image: url(img/login_guru.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}*/
+
+.box_login{
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 3%;
+}
+
+.login{
+  background-color: #FDF9F6;
+  color: #262626;  
+  border: 2px solid #262626;
+  margin: 0 auto;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+form .inputan{
+  color: #262626;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.inputan input{
+  background-color: #FDF9F6;
+  color: #262626; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: 5%;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.inputan i{
+  color: #262626;  
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+input:focus{
+  outline: none;
+  color: #5883D1;
+}
+
+.masuk{
+  background-color: #5883D1;
+  border-color: #5883D1;
+  color: #FAFBF6;  
+}
+
+/*SIDEBAR*/
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FFC4C0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF8D85;
+  border-radius: 25px;  
+}
+
+.sidebar{
+  font-family: Poppins, Verdana, sans-serif;
+  background-color: #FCF4EC;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.judulside{
+  font-family: Poppins, Verdana, sans-serif; 
+  text-align: left;
+  padding-left: 10%;
+  letter-spacing: 1px;
+  padding-top: 20%;
+  margin: 15% 0% 10% 0%;
+}
+
+.menuside a{
+  color: #262626;
+  text-align: justify;
+  display: block;
+  margin: 3% 0% 0% 0%;
+  border-radius: 10px;
+}
+
+.menuside a.active {
+  background-color: #97B6EC;
+  color: #262626;
+}
+
+.menuside a:hover:not(.active) {
+  background-color: #D4D6D9;
+  color: #262626;
+  cursor: pointer;
+}
+
+.logout{
+  font-family: Poppins, Verdana, sans-serif; 
+  text-align: left;
+  margin: 10% 0% 3% 0%;
+}
+
+.logout a{
+  color: #262626;
+}
+
+.logout a:hover{
+  color: #5984D2;
+}
+/*area konten*/
+
+.header{
+  color: #262626;
+  font-family: Poppins, Verdana, sans-serif;
+  text-align: center;
+  padding: 1%;
+}
+
+.daftar_nilai{
+  background-color: #FAFBF6;
+  border-radius: 10px;
+  border: 2px #282828 solid;
+  color: #282828;
+  height: 500px;
+  padding: 3%;
+  overflow: auto;
+  margin: 5%; 
+}
+
+.tabel_nilai{
+  text-align: center;
+  border: 1px solid;
+}
+
+.tabel_nilai tr, .tabel_nilai th, .tabel_nilai td{
+  border: 1px solid;
+}
+
+tbody tr:hover{
+  background-color: #CBDBF6;
+}
