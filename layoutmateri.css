@@ -246,6 +246,30 @@ mark{
   background-color: #FBF2ED;
 }
 
+.note_jawaban{
+  background-color: #FFDDDD;
+  border-left: 6px solid #f44336;
+  padding-left: 3%;
+  text-align: left;
+}
+
+.kembalimateri{
+  background-color: #97B6EC;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  color: #262626;
+  margin: 0 auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  width: 210px;
+  font-family: Poppins, Verdana, sans-serif;
+}
+
+.kembalimateri:hover{
+  background-color: #FBF2ED;
+  border: 1px solid #282828;
+}
 /*==================== ***HALAMAN*** ====================*/
 .halaman{
   margin: 0 auto;
@@ -327,7 +351,7 @@ mark{
 .tabel_mendatar{
   margin: 0 auto;
   text-align: center;
-  width: auto;  
+  width: 100%;  
 }
 
 .tabel_mendatar th{

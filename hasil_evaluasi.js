@@ -12,9 +12,9 @@ let result = {}
 let note
 let score = (parseInt(correctAnswer) / parseInt(questionLength)) * 100
 if(score >= 65) {
-    note = "Selamat, ya! Kamu berhasil melewati evaluasi ini! <i class='far fa-grin-stars'></i>"
+    note = "Selamat, ya! Kamu berhasil melewati evaluasi ini! Terima kasih atas kerja kerasmu <i class='far fa-grin-stars'></i>"
 } else {
-    note = "Gapapa, ayo baca materi dan berlatih lagi, ya! Semangat! <i class='far fa-smile-beam'></i> <i class='far fa-hand-rock'> <i class='fas fa-fire'></i>"
+    note = "Yah, nilai kamu belum mencukupi KKM. Gapapa kok, yuk baca materi dan berlatih lagi! Semangat! <i class='far fa-smile-beam'></i> <i class='far fa-hand-rock'> <i class='fas fa-fire'></i>"
 }
 score = score < 100 ? score.toFixed(2) : score
 

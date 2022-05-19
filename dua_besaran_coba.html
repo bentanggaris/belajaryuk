@@ -95,34 +95,50 @@
 					<p><b><i class="fas fa-bell"></i> Petunjuk Pengerjaan</b><br><br>
 
 					<span>
-					&#9679;&nbsp;&nbsp;&nbsp;Kerjakan 5 butir soal di bawah ini dengan cara mengisi kotak yang telah disediakan, <b>isi hanya dengan angka</b>. Ingat! Waktu pengerjaan soal hanya <b>30 menit</b>.</br></br>
+					&#9679;&nbsp;&nbsp;&nbsp;Kerjakan 5 butir soal di bawah ini dengan cara mengisi kotak yang telah disediakan, <b>isi hanya dengan angka</b>.</br></br>
 
-					&#9679;&nbsp;&nbsp;&nbsp;Gunakan tombol <button class="btn cekjawaban" style="background-color: #97B6EC; border: 1px solid #262626; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 180px; font-family: Poppins, Verdana, sans-serif;">Cek Jawaban&nbsp;&nbsp;&nbsp;&#8594;</button> untuk memeriksa apakah jawabanmu benar atau salah, juga untuk mengetahui total nilaimu.
+					&#9679;&nbsp;&nbsp;&nbsp;Gunakan tombol <button class="btn cekjawaban" style="background-color: #97B6EC; border: 1px solid #262626; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 180px; font-family: Poppins, Verdana, sans-serif;">Cek Jawaban&nbsp;&nbsp;&nbsp;&#8594;</button> untuk memeriksa apakah jawabanmu benar atau salah.
 
 					<b style="color: #5688E0;">Jika jawabanmu benar</b>, maka akan tampil tanda centang berwarna biru (<img src="img/benar.svg" style="width: 30px;">), namun <b style="color: #FF5347;">jika jawabanmu masih kurang tepat</b>, maka akan tampil tanda silang berwarna merah (<img src="img/salah.svg" style="width: 30px;">).</br></br>
 
 					&#9679;&nbsp;&nbsp;&nbsp;Jika ingin mencoba soal lain, kamu dapat mengklik pada tombol <button class="btn cobalagi" style="background-color: #FF9F98; border: 1px solid #262626; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 150px; font-family: Poppins, Verdana, sans-serif;">Coba Lagi&nbsp;&nbsp;&nbsp;&#8634;</button>.</br></br>
 
-					&#9679;&nbsp;&nbsp;&nbsp;Sebelum memulai, yuk isi data diri kamu terlebih dahulu pada form yang tersedia di bawah ini. Masukkan <b>"Nama Siswa"</b> dan pilih <b>"Kelas"</b>, lalu klik tombol <button class="btn cekjawaban" style="background-color: #97B6EC; border: 1px solid #262626; border-radius: 5px; color: #262626; margin: 1% 1% 1% 1%;text-align: center; width: 180px; font-family: Poppins, Verdana, sans-serif;">Mulai Berlatih&nbsp;&nbsp;&nbsp;&#8594;</button> untuk mulai mengerjakan soal-soal latihan pada sub bab ini.</br></br>
-
 					&#9679;&nbsp;&nbsp;&nbsp; Eits, jangan lupa baca doa, ya! Selamat mencoba dan semangat!&#9786;
-					</span>
+					</span><br>
 
-					<div class="card labeldatadiri">
-						<b>Data Diri Siswa</b>	
-					</div>
+					<hr color="#262626;">
+					
+					<!-- Soal Latihan -->
+					<p><b><i class="fas fa-book-open"></i> Soal-soal Latihan</b><br><br>
+					<!--soal 1-->
+					<p id="randomsoal1"></p>
+					<p id="inputjawaban1" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban1" size="15">&nbsp;&nbsp;<span id="output1"></span>
 
-					<div class="card isidatadiri">
-						<p> Nama Siswa :&nbsp;&nbsp;&nbsp;<input type="text" id="nama" name="nama" required placeholder="Masukkan Nama"></br></br>
+					<!--soal 2-->
+					<p id="randomsoal2"></p>
+					<p id="inputjawaban2" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban2" size="15">&nbsp;&nbsp;<span id="output2"></span>
 
-						Kelas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<select id="kelas" name="kelas"placeholder="Pilih Kelas">
-						<option value='VII A'>VII A</option>
-						<option value='VII B'>VII B</option>	
-						</select></p>
-					</div>
+					<!--soal 3-->
+					<p id="randomsoal3"></p>
+					<p id="inputjawaban3" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban3" size="15">&nbsp;&nbsp;<span id="output3"></span>
 
-						<!-- Tombol Mulai-->
-						<button class="btn mulaiberlatih">Mulai Berlatih&nbsp;&nbsp;&nbsp;&#8594;</button>
+					<!--soal 4-->
+					<p id="randomsoal4"></p>
+					<p id="inputjawaban4" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban4" size="15">&nbsp;&nbsp;<span id="output4"></span>
+
+					<!--soal 5-->
+					<p id="randomsoal5"></p>
+					<p id="inputjawaban5" style="display:none"></p>
+					<p>Jawaban: <input type="text" id="jawaban5" size="15">&nbsp;&nbsp;<span id="output5"></span>		
+															
+					<!--TOMBOL CEK JAWABAN & COBA LAGI-->
+					<br><br><span><input type="button" name="submit" id="cekjawaban"class="btn cekjawaban" value="Cek Jawaban&nbsp;&nbsp;&nbsp;&#8594;">
+					<input type="button" id="cobalagi" class="btn cobalagi" value="Coba Lagi&nbsp;&nbsp;&nbsp;&#8634;"></span>
+
 				</div>
 
 				<div class="halaman">
@@ -152,21 +168,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Sisipan Javascript -->
-    <script>
-    	const mulaiberlatih = document.querySelector('.mulaiberlatih');
-    	const nama = document.getElementById('nama');
-		const kelas = document.getElementById('kelas');
-
-        mulaiberlatih.addEventListener('click', function(){
-            if(nama.value =="" || kelas.value ==""){
-                alert("Silakan isi nama terlebih dahulu")
-            }else{
-                localStorage.setItem('nama', nama.value)
-                localStorage.setItem('kelas', kelas.value)
-                window.location = "dua_besaran_soal_latihan.html"
-            }
-        })	
-    </script>
+    <script src="dua_besaran_coba.js"></script>
 
 	</body>
 </html>
