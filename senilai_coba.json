@@ -2,7 +2,7 @@
 	"senilai1":[
 		{
 			"soal1" : "1. Ibu membeli ikan kering sepat sebanyak 250 gram seharga Rp45.000,00. Jika ibu membeli 1 kilogram ikan kering sepat, maka uang yang harus ibu keluarkan adalah Rp .... ",
-			"jawab1" : ["180.000", "180.000,00"]
+			"jawab1" : "180.000,00"
 		},
 		{
 			"soal1" : "1. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{50}{25}=\\frac{10}{y}\\] <br>Nilai (y) dari pasangan perbandingan tersebut adalah ....",
@@ -25,7 +25,7 @@
 		},
 		{
 			"soal2" : "2. Mumu ingin mencetak poster untuk kegiatan di sekolahnya. Mumu menggunakan ukuran dengan panjang 400 pixel dan lebar 500 pixel. Setelah dicetak ternyata kualitas gambar posternya tidak baik. Lalu ia berencana untuk mengubah ukuran panjangnya menjadi 4.000 pixel. Agar ukurannya tetap proporsional, maka lebarnya adalah ... pixel.",
-			"jawab2" : [5000, "5.000"]
+			"jawab2" : "5.000"
 		},
 		{
 			"soal2" : "2. Diketahui dua pasang perbandingan, yaitu : \\[\\frac{8}{x}=\\frac{16}{20}\\] <br>Nilai (x) dari pasangan perbandingan tersebut adalah ....",
@@ -52,7 +52,7 @@
 		},
 		{
 			"soal3" : "3. Seorang pedagang pakaian, mampu menjual 15 lembar seragam sekolah dengan harga Rp795.000,00. Jika pada hari berikutnya ia mampu menjual sebanyak 3 lusin seragam sekolah, maka hasil penjualan yang akan ia peroleh adalah Rp ....",
-			"jawab3" : [1908000, "1.908.000", "1.908.000,00"]
+			"jawab3" : "1.908.000,00"
 		}		
 	],
 
@@ -63,34 +63,34 @@
 		},
 		{
 			"soal4" : "4. Ibu Maryam mempunyai 100 bebek petelur di rumahnya dan setiap bulannya ia memerlukan pakan dedak sebanyak 360 kg. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Bebek</th> <td>50</td> <td>100</td> <td>150</td> <td>200</td> <td>250</td> <td>300</td> <td>350</td> </tr> <tr> <th>Banyaknya Pakan Dadak (Kg)</th> <td>....</td> <td>360</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1, 2, 3, 4, 5, 6</div>",
-			"jawab4" : ["180, 540, 720, 900, 1080, 1260", "180, 540, 720, 900, 1.080, 1.260"]
+			"jawab4" : "180, 540, 720, 900, 1.080, 1.260"
 		},
 		{
-			"soal4" : "4. Dhila mempunyai 3 pulpen seharga Rp.7.500,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Pulpen</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Pulpen</th> <td>....</td> <td>....</td> <td>7.500</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban: 1, 2, 3, 4, 5, 6</div>",
-			"jawab4" : ["2500, 5000, 10000, 12500, 15000, 17500", "2.500, 5.000, 10.000, 12.500, 15.000, 17.500"]
+			"soal4" : "4. Dhila mempunyai 3 pulpen seharga Rp.7.500,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Jumlah Pulpen</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Pulpen (Rp)</th> <td>....</td> <td>....</td> <td>7.500,00</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban: 1, 2, 3, 4, 5, 6</div>",
+			"jawab4" : "2.500,00, 5.000,00, 10.000,00, 12.500,00, 15.000,00, 17.500,00"
 		},
 		{
-			"soal4" : "4. Gina membeli kue putu ayu sebanyak 2 buah dengan harga Rp3.000,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Kue Putu Ayu</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Kue Putu Ayu</th> <td>....</td> <td>3.000</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1, 2, 3, 4, 5, 6</div>",
-			"jawab4" : ["1500, 4500, 6000, 7500, 9000, 10500", "1.500, 4.500, 6.000, 7.500, 9.000, 10.500"]
+			"soal4" : "4. Gina membeli kue putu ayu sebanyak 2 buah dengan harga Rp3.000,00. Berdasarkan data tersebut, coba lengkapilah tabel di bawah ini.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Kue Putu Ayu</th> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> </tr> <tr> <th>Harga Kue Putu Ayu (Rp)</th> <td>....</td> <td>3.000,00</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1, 2, 3, 4, 5, 6</div>",
+			"jawab4" : "1.500,00, 4.500,00, 6.000,00, 7.500,00, 9.000,00, 10.500,00"
 		}		
 	],
 
 	"senilai5":[
 		{
-			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Volume Air Mineral (Liter)<br>(x)</th> <td>1,5</td> <td>3</td> <td>4,5</td> </tr> <tr> <th>Harga Air Mineral<br>(y)</th> <td>5.000</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : (1, 1), (1, 2), (1, 3)</div>",
-			"jawab5" : ["(1,5, 5.000), (3, 10.000), (4,5, 15.000)", "(1,5, 5000), (3, 10000), (4,5, 15000)"]
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Volume Air Mineral (Liter)<br>(x)</th> <td>1,5</td> <td>3</td> <td>4,5</td> </tr> <tr> <th>Harga Air Mineral (Rp)<br>(y)</th> <td>5.000,00</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1 & 1, 1 & 2, 1 & 3. Dengan anggapan bahwa nilai x = 1, 1, 1 dan nilai y = 1, 2, 3. Atau; x & y, x & y, x & y.</div>",
+			"jawab5" : "1,5 & 5.000,00, 3 & 10.000,00, 4,5 & 5.000,00"
 		},
 		{
-			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Banyak Ikan Papuyu (Kg)<br>(x)</th> <td>1</td> <td>2</td> <td>3</td> </tr> <tr> <th>Harga Ikan Papuyu<br>(y)</th> <td>96.000</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : (1, 1), (1, 2), (1, 3)</div>",
-			"jawab5" : ["(1, 96.000), (2, 192.000), (3, 288.000)", "(1, 96000), (2, 192000), (3, 288000)"]
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Banyak Ikan Papuyu (Kg)<br>(x)</th> <td>1</td> <td>2</td> <td>3</td> </tr> <tr> <th>Harga Ikan Papuyu (Rp)<br>(y)</th> <td>96.000,00</td> <td>....</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1 & 1, 1 & 2, 1 & 3. Dengan anggapan bahwa nilai x = 1, 1, 1 dan nilai y = 1, 2, 3. Atau; x & y, x & y, x & y.</div>",
+			"jawab5" : "1 & 96.000,00, 2 & 192.000,00, 3 & 288.000,00"
 		},
 		{
-			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Jarak/Km<br>(x)</th> <td>7</td> <td>140</td> <td>280</td> </tr> <tr> <th>Waktu/Jam<br>(y)</th> <td>....</td> <td>4</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : (1, 1), (1, 2), (1, 3)</div>",
-			"jawab5" : "(70, 2), (140, 4), (280,8)"
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Jarak/Km<br>(x)</th> <td>7</td> <td>140</td> <td>280</td> </tr> <tr> <th>Waktu/Jam<br>(y)</th> <td>....</td> <td>4</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1 & 1, 1 & 2, 1 & 3. Dengan anggapan bahwa nilai x = 1, 1, 1 dan nilai y = 1, 2, 3. Atau; x & y, x & y, x & y.</div>",
+			"jawab5" : "70 & 2, 140 & 4, 280 & 8"
 		},
 		{
-			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Pertamax (Liter)<br>(x)</th> <td>4</td> <td>8</td> <td>12</td> </tr> <tr> <th>Jarak yang ditempuh (Km)<br>(y)</th> <td>....</td> <td>432</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : (1, 1), (1, 2), (1, 3)</div>",
-			"jawab5" : "(4, 216), (8, 432), (12, 648)"
+			"soal5" : "5. Berdasarkan tabel yang tersaji di bawah ini, terlebih dahulu lengkapilah nilainya, lalu carilah titik koordinatnya menggunakan grafik kartesius dan isi jawabanmu pada kolom jawaban di bawah tabel.<br><br><table class='tabel_mendatar'> <tr> <th>Banyaknya Pertamax (Liter)<br>(x)</th> <td>4</td> <td>8</td> <td>12</td> </tr> <tr> <th>Jarak yang ditempuh (Km)<br>(y)</th> <td>....</td> <td>432</td> <td>....</td> </tr> </table><br><div class='note_jawaban'><i class='fa fa-warning'></i> Perhatikan! Pisahkan jawabanmu menggunakan tanda baca koma pada kolom jawaban di bawah ini. Contoh pengisian jawaban : 1 & 1, 1 & 2, 1 & 3. Dengan anggapan bahwa nilai x = 1, 1, 1 dan nilai y = 1, 2, 3. Atau; x & y, x & y, x & y.</div>",
+			"jawab5" : "4 & 216, 8 & 432, 12 & 648"
 		}		
 	]		
 }
