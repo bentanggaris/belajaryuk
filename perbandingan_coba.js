@@ -116,17 +116,6 @@ $(document).ready(function(){
 			$("#output5").html("<img src='img/salah.svg' style= 'width: 30px;'>");
 		}
 	}
-
-	function cekNilai() {
-		var totalNilai = (parseInt(jwbsoal1) + parseInt(jwbsoal2) + parseInt(jwbsoal3) + parseInt (jwbsoal4) + parseInt (jwbsoal5)) * 20
-		var keterangan
-
-		if (totalNilai >= 70) {
-			keterangan = "Yeiy, selamat! Kamu berhasil di latihan ini! Terima kasih atas kerja kerasmu <i class='far fa-grin-stars'></i>"
-		} else{
-			keterangan = "Yah, nilai kamu belum mencukupi KKM. Gapapa kok, yuk baca materi dan berlatih lagi! Semangat! <i class='far fa-smile-beam'></i> <i class='far fa-hand-rock'> <i class='fas fa-fire'></i>"
-		}
-	}
 	
 	$("#cekjawaban").on("click", function(){
 		jwbsoal1();
@@ -134,10 +123,6 @@ $(document).ready(function(){
 		jwbsoal3();
 		jwbsoal4();
 		jwbsoal5();				
-	})
-
-	$("ceknilai").on("click", function(){
-		cekNilai();
 	})
 	
 	$("#cobalagi").on("click", function(){
