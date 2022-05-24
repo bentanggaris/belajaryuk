@@ -11,7 +11,7 @@ let result = {}
 
 let note
 let score = (parseInt(correctAnswer) / parseInt(questionLength)) * 100
-if(score >= 65) {
+if(score >= 70) {
     note = "Selamat, ya! Kamu berhasil melewati evaluasi ini! Terima kasih atas kerja kerasmu <i class='far fa-grin-stars'></i>"
 } else {
     note = "Yah, nilai kamu belum mencukupi KKM. Gapapa kok, yuk baca materi dan berlatih lagi! Semangat! <i class='far fa-smile-beam'></i> <i class='far fa-hand-rock'> <i class='fas fa-fire'></i>"
