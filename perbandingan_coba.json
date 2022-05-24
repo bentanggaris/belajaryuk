@@ -24,7 +24,7 @@
 			"jawab2" : 93
 		},
 		{
-			"soal2" : "2. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut,perbandingan harga buku tulis dan buku gambar adalah ....",
+			"soal2" : "2. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan harga buku tulis dan buku gambar adalah ....",
 			"jawab2" : "5:3"
 		},
 		{
@@ -43,7 +43,7 @@
 			"jawab3" : 10
 		},
 		{
-			"soal3" : "3. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut,perbandingan harga penggaris dan pulpen adalah ....",
+			"soal3" : "3. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan harga penggaris dan pulpen adalah ....",
 			"jawab3" : "5:4"
 		},
 		{
@@ -81,12 +81,12 @@
 			"jawab5" : 25
 		},
 		{
-			"soal5" : "5. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, selisih antara harga buku tulis dengan buku gambar adalah Rp ....",
-			"jawab5" :"1.000,00"
+			"soal5" : "5. Nadah ingin membeli kebutuhan alat sekolah di sebuah toko alat tulis. Ia melihat daftar harga untuk beberapa alat tulis yang ada di toko tersebut. Berikut adalah harga dari tiap jenis alat tulisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Alat Tulis</th> <th>Harga/Satuan</th> </tr> <tr> <td>Pulpen</td> <td>Rp2.000,00</td> </tr> <tr> <td>Buku Tulis</td> <td>Rp2.500,00</td> </tr> <tr> <td>Buku Gambar</td> <td>Rp1.500,00</td> </tr> <tr> <td>Penggaris</td> <td>Rp2.500,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara harga pulpen dengan buku gambar adalah ....",
+			"jawab5" :"4:3"
 		},
 		{
 			"soal5" : "5. Kantin Bu Dewi menyediakan 4 jenis makanan tiap harinya. Berikut adalah jumlah stok makanan dari tiap jenisnya:<br><br><table class='tabel_menurun'> <tr> <th>Nama Makanan</th> <th>Stok</th> </tr> <tr> <td>Nasi kuning</td> <td>10 bungkus</td> </tr> <tr> <td>Nasi goreng</td> <td>12 bungkus</td> </tr> <tr> <td>Mie goreng</td> <td>15 bungkus</td> </tr> <tr> <td>Nasi ayam lalapan</td> <td>20 bungkus</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan jumlah stok nasi goreng dengan stok nasi kuning adalah ....",
-			"jawab5" : 3
+			"jawab5" : "6:5"
 		},
 		{
 			"soal5" : "5. Dewa ingin melakukan top up kuota internet menggunakan kartu Bebas, namun ia perlu melihat terlebih dahulu list harga kuota internet per GB-nya dan berikut ini adalah list harga yang disediakan oleh konter:<br><br><table class='tabel_menurun'> <tr> <th>Banyaknya Kuota (GB)</th> <th>Harga</th> </tr> <tr> <td>1 GB</td> <td>Rp16.000,00</td> </tr> <tr> <td>2 GB</td> <td>Rp22.000,00</td> </tr> <tr> <td>3 GB</td> <td>Rp27.000,00</td> </tr> <tr> <td>7 GB</td> <td>Rp32.000,00</td> </tr> <tr> <td>15 GB</td> <td>Rp47.000,00</td> </tr> </table><br><br>Berdasarkan data pada tabel tersebut, perbandingan antara harga kuota internet 7 GB dengan kuota internet 2 GB adalah ....",
