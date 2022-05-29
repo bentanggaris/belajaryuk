@@ -9,15 +9,6 @@ html, body{
   font-family: Poppins, Verdana, sans-serif;
 }
 
-/*LOGIN GURU*/
-
-/*.bg_login{
-  background-image: url(img/login_guru.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-}*/
-
 .box_login{
   margin: 0 auto;
   margin-top: 5%;

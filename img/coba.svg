@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="45" viewBox="0 0 166 45">
+  <g id="Group_3" data-name="Group 3" transform="translate(-34 -78)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(34 78)" fill="#ff9f98" stroke="#262626" stroke-width="1">
+      <rect width="166" height="45" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="165" height="44" rx="9.5" fill="none"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(51.077 86)">
+      <text id="Coba_Lagi" data-name="Coba Lagi" transform="translate(-0.077 21)" fill="#262626" font-size="20" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Coba Lagi</tspan></text>
+      <g id="Group_4" data-name="Group 4" transform="matrix(0.809, 0.588, -0.588, 0.809, 120.659, 4.359)">
+        <path id="Path_2" data-name="Path 2" d="M0,0,1.662,1.662,0,3.324" transform="translate(8.768 3.683) rotate(-161)" fill="none" stroke="#262626" stroke-width="1"/>
+        <path id="Path_3" data-name="Path 3" d="M5.775,0A5.775,5.775,0,1,1,0,5.775" transform="translate(2.204 0.453) rotate(11)" fill="none" stroke="#262626" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

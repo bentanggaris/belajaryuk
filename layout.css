@@ -10,23 +10,10 @@ html, body{
   color: #97B6EC;
   font-family: Poppins, Verdana, sans-serif;
   margin: 0;
+  padding-top: 3%;
 }
 
 /*==================== ***BERANDA*** ====================*/
-.guru{
-  padding: 2% 5% 0% 2%;
-  text-align: right;
-}
-
-.guru a{
-  font-family: Poppins;
-  color: #282828;
-  font-weight: normal;
-}
-
-.guru:hover a{
-  color: #5688E0;
-}
 
 .beranda{
   margin: 0% 5% 0% 5%;
@@ -42,7 +29,7 @@ html, body{
   font-weight: bold;
   color: #97B6EC;
   letter-spacing: 2px;
-  padding: 5% 0% 3% 0%;
+  padding: 10% 0% 5% 0%;
   font-size: 3rem;
 }
 
@@ -366,7 +353,7 @@ h4{
   border: 1px solid #282828;
 }
 
-.kembali{
+.soalsebelumnya{
   background-color: #D8D8D8;
   border: 1px solid #282828;
   border-radius: 5px;
@@ -374,7 +361,7 @@ h4{
   transition-duration: 0.4s;
   cursor: pointer;
   text-align: center;
-  width: 120px;
+  width: 150px;
   font-family: Poppins, Verdana, sans-serif;
 }
 
