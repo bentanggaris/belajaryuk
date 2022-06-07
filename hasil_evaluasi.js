@@ -32,14 +32,14 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
+// Ini data yang diambil dari Firebase untuk ditampilkan di halaman nilai evaluasi
 const d = new Date();
 const data = {
-    namaS:nameUser,
-    kelasS:klsUser,  
-    nilai:score,
-    keterangan : note,
-    waktu : `${d.getDate()}-${d.getMonth()+1}-${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}`
-
+    namaS: nameUser,
+    kelasS: klsUser,  
+    nilai: score,
+    keterangan: note,
+    waktu: `${d.getDate()}-${d.getMonth()+1}-${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}`
 }
 
 var database = firebase.database();

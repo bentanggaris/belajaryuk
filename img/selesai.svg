@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="45" viewBox="0 0 117 45">
+  <g id="selesai" transform="translate(0 -78)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 78)" fill="#97b6ec" stroke="#262626" stroke-width="1">
+      <rect width="117" height="45" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="44" rx="9.5" fill="none"/>
+    </g>
+    <text id="Selesai-2" data-name="Selesai" transform="translate(24 107)" fill="#262626" font-size="20" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Selesai</tspan></text>
+  </g>
+</svg>

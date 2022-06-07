@@ -135,8 +135,8 @@
         let startMinutes = 60
         let seconds = 0
 
-        function countdown() {
-            setTimeout(countdown, 1000)
+        function timer() {
+            setTimeout(timer, 1000)
             seconds = seconds < 10 ? '0' + seconds : seconds
             showTime.innerHTML = `${startMinutes} : ${seconds}`
 
@@ -163,4 +163,4 @@
             }
         }
 
-        countdown()
+        timer()

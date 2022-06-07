@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css"> 
+        <link rel="stylesheet" type="text/css" href="layout_guru.css">        
+        <link rel="icon" href="img/logoby2.svg"/>
+
+        <!-- Font Awesome -->   
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">   
+
+        <!-- CDN jquery (with ajax) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<title>Nilai Evaluasi</title>
+	</head>
+
+	<body>
+		<!-- Konten -->
+		<div class="container-fluid">
+		<div class="row">
+			<!-- Sidebar -->
+			<div class="col-sm-2 col-md-2 sidebar"><h4 class="judulside"><b>Dashboard Guru</b></h4>
+
+				<div class="menuside">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+						<a style="padding-left: 10%;" class="nav-link active" href="nilai_evaluasi.html"><i class="far fa-file-alt"></i> Evaluasi</a></li>				
+					</ul>
+				</div>
+
+				<hr color="#262626;">
+
+				<div class="logout">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+						<a style="padding-left: 10%;" class="nav-link" href="guru_login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+					</ul>
+				</div>
+			</div>	
+
+			<div class="col-sm-10 col-md-10">
+				<div class="card daftar_nilai">
+					<div class="header"><h5>Daftar Nilai Siswa</h5></div>
+					<table class="table table-hover tabel_nilai">
+						<thead>
+							<tr>
+								<th>No.</th>
+								<th>Nama Siswa</th>
+								<th>Kelas</th>
+								<th>Nilai</th>
+								<th>Waktu</th>
+							</tr>
+						</thead>							
+						<tbody class="hasilDetail">
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</div>
+		</div>
+
+
+    <!-- JQuery -->
+    <script src="assets/jquery-3.3.1.min.js"></script>
+    
+    <!-- Bootstrap -->  
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Sisipan Javascript -->
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+	<script>      
+	var firebaseConfig = {
+	  apiKey: "AIzaSyAsQsejibLhoUqNwMAB2VS-ZaOyyASjTHI",
+	  authDomain: "belajaryuk-2e6eb.firebaseapp.com",
+	  databaseURL: "https://belajaryuk-2e6eb-default-rtdb.firebaseio.com",
+	  projectId: "belajaryuk-2e6eb",
+	  storageBucket: "belajaryuk-2e6eb.appspot.com",
+	  messagingSenderId: "584931503788",
+	  appId: "1:584931503788:web:3d4e3793a4767258473909"
+	  };
+
+	// Initialize Firebase
+	firebase.initializeApp(firebaseConfig);
+
+	var database = firebase.database();
+	database = firebase.database();
+
+	var ref = database.ref("evaluasi");
+	var idx = 0;
+
+	let rc = document.querySelector('.hasilDetail');
+
+	ref.on("child_added", function (data) {
+	idx += 1;
+
+	var dataSiswa = data.val();
+	function tampilkan () {
+	    var tabel = document.querySelector('.hasilDetail');
+	    rc.innerHTML += 
+
+	    `<tr><td>${dataSiswa.namaS}</td><td>${dataSiswa.kelasS}</td><td>${dataSiswa.nilai}</td><td>${dataSiswa.waktu}</td><td>
+	    </td></tr>`;
+	    for (let i = 0; i < data.length; i++) {
+	        var btnhapus = "<button class='hapus' href='#' onclick='hapus(" + i + ")'>Hapus</button>";
+	        j = i + 1;
+	        tabel.innerHTML += "<tr><td>" + j + "</td><td>" + dataSiswa[i] + "</td><td>" + btnhapus + "</tr>";
+		}
+	}
+
+		// Fitur hapus
+		function hapus(a) {
+			dataSiswa.pop(a);
+			tampilkan();
+		}
+
+		tampilkan();
+	})
+
+	</script>
+
+	</body>
+</html>

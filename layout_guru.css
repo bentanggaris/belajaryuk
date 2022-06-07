@@ -65,7 +65,7 @@ input:focus{
 /*SIDEBAR*/
 
 ::-webkit-scrollbar{
-  width: 7px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -154,6 +154,20 @@ input:focus{
   border: 1px solid;
 }
 
-tbody tr:hover{
-  background-color: #CBDBF6;
+.hapus{
+  background-color: #FF5347;;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
 }
+
+.hapus:hover{
+background-color: #FF2D1E;
+}
+
+/*tbody tr:hover{
+  background-color: #CBDBF6;
+}*/

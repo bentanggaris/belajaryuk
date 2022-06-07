@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="45" viewBox="0 0 117 45">
+  <g id="Group_6" data-name="Group 6" transform="translate(0 -78)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 78)" fill="#97b6ec" stroke="#262626" stroke-width="1">
+      <rect width="117" height="45" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="44" rx="9.5" fill="none"/>
+    </g>
+    <text id="Mulai" transform="translate(16 107)" fill="#262626" font-size="20" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Mulai</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(79.337 97.669)">
+      <path id="Path_1" data-name="Path 1" d="M40.828,148.521h19.6" transform="translate(-40.828 -144.189)" fill="none" stroke="#262626" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M69.231,139.053l4.331,4.331-4.331,4.331" transform="translate(-53.965 -139.053)" fill="none" stroke="#262626" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
